@@ -16,6 +16,7 @@ import java.io.PrintWriter;
 
 import static java.util.Objects.nonNull;
 import static ru.sstu.entity.util.Util.filter;
+import static ru.sstu.entity.util.Util.filterAllHtml;
 
 @WebServlet(name = "ProfileServlet", value ="/profile")
 public class ProfileServlet  extends HttpServlet {
@@ -39,13 +40,13 @@ public class ProfileServlet  extends HttpServlet {
         int idClientSession = (int) session.getAttribute("idClient");
 
         /*Удаление карты*/
-        String dellSubCard = filter(req.getParameter("dellSubCard"));
+        String dellSubCard = filterAllHtml(req.getParameter("dellSubCard"));
 
         /*Удадение книги у клиента*/
-        String bookIdDel = filter(req.getParameter("delBook"));
+        String bookIdDel = filterAllHtml(req.getParameter("delBook"));
 
         /*Добавление книги*/
-        String bookAddId = filter(req.getParameter("addBook"));
+        String bookAddId = filterAllHtml(req.getParameter("addBook"));
 
 
         logger.info("Прием данных с страницы /profile  GET завершен. Client id=" + idClientSession);

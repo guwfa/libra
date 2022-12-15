@@ -15,6 +15,7 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicReference;
 
 import static java.util.Objects.nonNull;
+import static ru.sstu.entity.util.Util.filterAllHtml;
 
 @WebFilter("/")
  public class AuthFilter implements Filter {
@@ -32,8 +33,8 @@ import static java.util.Objects.nonNull;
         final HttpServletRequest req = (HttpServletRequest) request;
         final HttpServletResponse res = (HttpServletResponse) response;
 
-        final String login = req.getParameter("login");
-        final String password = req.getParameter("password");
+        final String login = filterAllHtml(req.getParameter("login"));
+        final String password = filterAllHtml(req.getParameter("password"));
 
         final HttpSession session = req.getSession();
         session.setMaxInactiveInterval(10*60);

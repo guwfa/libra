@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 import static ru.sstu.entity.util.Util.filter;
+import static ru.sstu.entity.util.Util.filterAllHtml;
 
 @WebServlet(name = "RegisterServlet", value ="/registration")
 public class RegisterServlet extends HttpServlet{
@@ -36,11 +37,11 @@ public class RegisterServlet extends HttpServlet{
 
 
         logger.info("Прием данных с страницы /registration");
-        String login = filter(req.getParameter("login"));
-        String firstName = filter(req.getParameter("firstName"));
-        String secondName = filter(req.getParameter("secondName"));
-        String patronymic = filter(req.getParameter("patronymic"));
-        String password = filter(req.getParameter("password"));
+        String login = filterAllHtml(req.getParameter("login"));
+        String firstName = filterAllHtml(req.getParameter("firstName"));
+        String secondName = filterAllHtml(req.getParameter("secondName"));
+        String patronymic = filterAllHtml(req.getParameter("patronymic"));
+        String password = filterAllHtml(req.getParameter("password"));
 
         /*Нет никаких проверок на фронте и беке на валидность данных*/
 

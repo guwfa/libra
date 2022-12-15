@@ -17,6 +17,7 @@ import java.util.List;
 import static ru.sstu.entity.util.DatabaseConnection.addBook;
 import static ru.sstu.entity.util.DatabaseConnection.updateBook;
 import static ru.sstu.entity.util.Util.filter;
+import static ru.sstu.entity.util.Util.filterAllHtml;
 
 @WebServlet(name = "AdminServlet",value = "/adminPanel")
 public class AdminServlet extends HttpServlet {
@@ -39,15 +40,15 @@ public class AdminServlet extends HttpServlet {
         PrintWriter writer = resp.getWriter();
 
         logger.info("Вход на страницу /adminPanel");
-        String viewTable = req.getParameter("viewTable");
-        String bookId = filter(req.getParameter("bookId"));
-        String bookName = filter(req.getParameter("bookName"));
-        String description = filter(req.getParameter("description"));
-        String place = filter(req.getParameter("place"));
-        String pubclishingHouse = filter(req.getParameter("pubclishingHouse"));
-        String updateBook = req.getParameter("updateBook");
-        String addBook = req.getParameter("addBook");
-        String delBook = filter(req.getParameter("delBook"));
+        String viewTable = filterAllHtml(req.getParameter("viewTable"));
+        String bookId = filterAllHtml(req.getParameter("bookId"));
+        String bookName = filterAllHtml(req.getParameter("bookName"));
+        String description = filterAllHtml(req.getParameter("description"));
+        String place = filterAllHtml(req.getParameter("place"));
+        String pubclishingHouse = filterAllHtml(req.getParameter("pubclishingHouse"));
+        String updateBook = filterAllHtml(req.getParameter("updateBook"));
+        String addBook = filterAllHtml(req.getParameter("addBook"));
+        String delBook = filterAllHtml(req.getParameter("delBook"));
 
         writer.println(
                 "<!DOCTYPE html>\n" +
