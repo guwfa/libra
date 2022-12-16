@@ -15,7 +15,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 import static java.util.Objects.nonNull;
-import static ru.sstu.entity.util.Util.filter;
 import static ru.sstu.entity.util.Util.filterAllHtml;
 
 @WebServlet(name = "ProfileServlet", value ="/profile")

@@ -15268,3 +15268,909 @@
 2022-12-14 18:45:35 INFO  DatabaseConnection:545 - dellSabCardUser: Начинаю удаление  подписочной карты пользователя
 2022-12-14 18:45:35 INFO  DatabaseConnection:554 - dellSabCardUser: Данные   удалены
 2022-12-14 18:45:35 INFO  ProfileServlet:325 - Удаление  пользовательской карты успешно завершено
+2022-12-16 18:03:04 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 18:03:04 INFO  DatabaseConnection:131 - getListInstance: Запрашиваю данные из таблицы Instance
+2022-12-16 18:03:06 INFO  DatabaseConnection:149 - getListInstance: Данные из таблицы  Instance
+2022-12-16 18:03:06 INFO  DatabaseConnection:151 - Instance{instanceId=1, bookId=2, presence=1, quantity=10000000}
+2022-12-16 18:03:06 INFO  DatabaseConnection:151 - Instance{instanceId=2, bookId=3, presence=1, quantity=10000}
+2022-12-16 18:03:06 INFO  DatabaseConnection:151 - Instance{instanceId=3, bookId=4, presence=1, quantity=10000000}
+2022-12-16 18:03:06 INFO  DatabaseConnection:151 - Instance{instanceId=4, bookId=5, presence=1, quantity=200000}
+2022-12-16 18:03:06 INFO  DatabaseConnection:151 - Instance{instanceId=5, bookId=6, presence=1, quantity=10000000}
+2022-12-16 18:03:06 INFO  DatabaseConnection:151 - Instance{instanceId=6, bookId=7, presence=1, quantity=1000000}
+2022-12-16 18:03:06 INFO  DatabaseConnection:151 - Instance{instanceId=7, bookId=8, presence=1, quantity=30000000}
+2022-12-16 18:03:06 INFO  DatabaseConnection:151 - Instance{instanceId=8, bookId=9, presence=1, quantity=10000000}
+2022-12-16 18:03:06 INFO  DatabaseConnection:151 - Instance{instanceId=9, bookId=10, presence=1, quantity=10000000}
+2022-12-16 18:03:06 INFO  DatabaseConnection:151 - Instance{instanceId=10, bookId=11, presence=1, quantity=100000}
+2022-12-16 18:03:06 INFO  DatabaseConnection:161 - getListInstance: Возвращаю данные из таблицы Instance
+2022-12-16 18:03:06 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 18:03:07 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 18:03:07 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='03504c534c3c6ebdb5ca562c5c2a6f63691c2e2b0c51c21a31ee8dfe825928d90acf9e58731e3ae75f44efc98ee4b55cfba8a9ea745975117c8cc7f4157cebec', role=ADMIN}
+2022-12-16 18:03:07 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='16dced9fdbe3348bacc57d6e3db04113aca80c2a3e15b8b9538275ec9cccf78d05ab5e5006b6a3c705e29f20b564882a882c056ddf0970ff2bc933b2ce047413', role=USER}
+2022-12-16 18:03:07 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 18:03:07 INFO  ClientInstance:46 - Проверка на существование пользователя с задаными  login= password=991bb970f2b0c68de7fe5b2e2ba63bb64af9060e1d8471357af4c833e7e4db777a79b04ef20e29249869ae55fc78b86cd96220314c47533c5169d39bfd5f6b75 Есть ли запись в таблице: false
+2022-12-16 18:03:07 INFO  AuthFilter:76 - Client UNKNOWN
+2022-12-16 18:03:11 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 18:03:11 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 18:03:11 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 18:03:11 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='03504c534c3c6ebdb5ca562c5c2a6f63691c2e2b0c51c21a31ee8dfe825928d90acf9e58731e3ae75f44efc98ee4b55cfba8a9ea745975117c8cc7f4157cebec', role=ADMIN}
+2022-12-16 18:03:11 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='16dced9fdbe3348bacc57d6e3db04113aca80c2a3e15b8b9538275ec9cccf78d05ab5e5006b6a3c705e29f20b564882a882c056ddf0970ff2bc933b2ce047413', role=USER}
+2022-12-16 18:03:11 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 18:03:11 INFO  ClientInstance:46 - Проверка на существование пользователя с задаными  login= password=56071f42692db4f950ddcc1515592f374b89a270b462937bce02f38f3575bf751fa021306d9352e28c1acb007acb39fbd1a2aea57915b960529ed4b321c49b31 Есть ли запись в таблице: false
+2022-12-16 18:03:11 INFO  AuthFilter:76 - Client UNKNOWN
+2022-12-16 18:03:15 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 18:03:15 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 18:03:15 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 18:03:15 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='03504c534c3c6ebdb5ca562c5c2a6f63691c2e2b0c51c21a31ee8dfe825928d90acf9e58731e3ae75f44efc98ee4b55cfba8a9ea745975117c8cc7f4157cebec', role=ADMIN}
+2022-12-16 18:03:15 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='16dced9fdbe3348bacc57d6e3db04113aca80c2a3e15b8b9538275ec9cccf78d05ab5e5006b6a3c705e29f20b564882a882c056ddf0970ff2bc933b2ce047413', role=USER}
+2022-12-16 18:03:15 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 18:03:15 INFO  ClientInstance:46 - Проверка на существование пользователя с задаными  login= password=d3141ed7df94c7c3af08dbee0366ebe71f4542b783592949edda9ebd9cd334e667e812fc7b532600b0740c1c8b524f5ca2346932032f2994d3d518ab8fd11c3f Есть ли запись в таблице: false
+2022-12-16 18:03:15 INFO  AuthFilter:76 - Client UNKNOWN
+2022-12-16 18:03:25 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 18:03:25 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 18:03:25 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 18:03:25 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='03504c534c3c6ebdb5ca562c5c2a6f63691c2e2b0c51c21a31ee8dfe825928d90acf9e58731e3ae75f44efc98ee4b55cfba8a9ea745975117c8cc7f4157cebec', role=ADMIN}
+2022-12-16 18:03:25 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='16dced9fdbe3348bacc57d6e3db04113aca80c2a3e15b8b9538275ec9cccf78d05ab5e5006b6a3c705e29f20b564882a882c056ddf0970ff2bc933b2ce047413', role=USER}
+2022-12-16 18:03:25 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 18:03:25 INFO  ClientInstance:46 - Проверка на существование пользователя с задаными  login=user password=ad48865b77aa07f901c4865be7ed575fb86b8cb55a3dcbdbc4ad86b2e65ac388722f13101db76a2736bd2b03f4b97f6aaa5930fa718ea6f4049f2e9090214ae9 Есть ли запись в таблице: false
+2022-12-16 18:03:25 INFO  AuthFilter:76 - Client UNKNOWN
+2022-12-16 18:05:31 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 18:05:31 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 18:05:31 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 18:05:31 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='03504c534c3c6ebdb5ca562c5c2a6f63691c2e2b0c51c21a31ee8dfe825928d90acf9e58731e3ae75f44efc98ee4b55cfba8a9ea745975117c8cc7f4157cebec', role=ADMIN}
+2022-12-16 18:05:31 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='16dced9fdbe3348bacc57d6e3db04113aca80c2a3e15b8b9538275ec9cccf78d05ab5e5006b6a3c705e29f20b564882a882c056ddf0970ff2bc933b2ce047413', role=USER}
+2022-12-16 18:05:31 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 18:05:31 INFO  ClientInstance:46 - Проверка на существование пользователя с задаными  login=admin password=c0745c3b97827c6f8e757a622b0e330406c83a1eb7d0eaae8ed84470e2289c27f86c6ef778e5596d1d8860d0bd57b3c45e77c1d886ad59e4f24a6614b05e8751 Есть ли запись в таблице: false
+2022-12-16 18:05:31 INFO  AuthFilter:76 - Client UNKNOWN
+2022-12-16 18:05:37 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 18:05:37 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 18:05:37 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 18:05:37 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='03504c534c3c6ebdb5ca562c5c2a6f63691c2e2b0c51c21a31ee8dfe825928d90acf9e58731e3ae75f44efc98ee4b55cfba8a9ea745975117c8cc7f4157cebec', role=ADMIN}
+2022-12-16 18:05:37 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='16dced9fdbe3348bacc57d6e3db04113aca80c2a3e15b8b9538275ec9cccf78d05ab5e5006b6a3c705e29f20b564882a882c056ddf0970ff2bc933b2ce047413', role=USER}
+2022-12-16 18:05:37 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 18:05:37 INFO  ClientInstance:46 - Проверка на существование пользователя с задаными  login=admin password=a03a433f630bd7d9591b70ac4f95f5a4dcfa3fa5075be8647e7a6956592fad8aed3865bcc2a4468368a8bc1d3756d32eb954aa068a3b5b5366dc214543c44828 Есть ли запись в таблице: false
+2022-12-16 18:05:37 INFO  AuthFilter:76 - Client UNKNOWN
+2022-12-16 18:07:18 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 18:07:18 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 18:07:18 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 18:07:18 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='03504c534c3c6ebdb5ca562c5c2a6f63691c2e2b0c51c21a31ee8dfe825928d90acf9e58731e3ae75f44efc98ee4b55cfba8a9ea745975117c8cc7f4157cebec', role=ADMIN}
+2022-12-16 18:07:18 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='16dced9fdbe3348bacc57d6e3db04113aca80c2a3e15b8b9538275ec9cccf78d05ab5e5006b6a3c705e29f20b564882a882c056ddf0970ff2bc933b2ce047413', role=USER}
+2022-12-16 18:07:18 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 18:07:18 INFO  ClientInstance:46 - Проверка на существование пользователя с задаными  login=admin password=d68f2a2ce4e5e12df85c29d68c825899bcdfed37532b777b392326544777066d689c935f1ab366bc35cec56e7bafd4ff410d673f22a86160d438f85c23b07012 Есть ли запись в таблице: false
+2022-12-16 18:07:18 INFO  AuthFilter:76 - Client UNKNOWN
+2022-12-16 18:08:37 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 18:08:37 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 18:08:37 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 18:08:37 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='03504c534c3c6ebdb5ca562c5c2a6f63691c2e2b0c51c21a31ee8dfe825928d90acf9e58731e3ae75f44efc98ee4b55cfba8a9ea745975117c8cc7f4157cebec', role=ADMIN}
+2022-12-16 18:08:37 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='16dced9fdbe3348bacc57d6e3db04113aca80c2a3e15b8b9538275ec9cccf78d05ab5e5006b6a3c705e29f20b564882a882c056ddf0970ff2bc933b2ce047413', role=USER}
+2022-12-16 18:08:37 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 18:08:37 INFO  ClientInstance:46 - Проверка на существование пользователя с задаными  login=user password=6d8c072010f5cfdfe2a6d65d43926f201f2bd5ffe7a3691f139f511b1763b212e2eea8ea38f456d4490b6d657221ac9a118dba3b614be951d86fa89d077990b0 Есть ли запись в таблице: false
+2022-12-16 18:08:37 INFO  AuthFilter:76 - Client UNKNOWN
+2022-12-16 18:08:43 INFO  ProfileServlet:31 - Вход на страницу /profile
+2022-12-16 18:08:43 INFO  ProfileServlet:36 - Прием данных с страницы /profile GET
+2022-12-16 18:08:52 INFO  LogoutServlet:21 - Старт закрытия сессии
+2022-12-16 18:08:52 INFO  LogoutServlet:30 - Сессия закрыта 
+2022-12-16 18:08:52 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 18:08:52 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 18:08:52 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 18:08:52 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='03504c534c3c6ebdb5ca562c5c2a6f63691c2e2b0c51c21a31ee8dfe825928d90acf9e58731e3ae75f44efc98ee4b55cfba8a9ea745975117c8cc7f4157cebec', role=ADMIN}
+2022-12-16 18:08:52 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='16dced9fdbe3348bacc57d6e3db04113aca80c2a3e15b8b9538275ec9cccf78d05ab5e5006b6a3c705e29f20b564882a882c056ddf0970ff2bc933b2ce047413', role=USER}
+2022-12-16 18:08:52 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 18:08:52 INFO  ClientInstance:46 - Проверка на существование пользователя с задаными  login= password=6bf20ab75cae39e4ebabfafc3436d1dcf69404f63c446b2ffd9627638859b900b1c297eb49c8fea73bccfd93ca9539c26294eba9e224536cdee7755281493458 Есть ли запись в таблице: false
+2022-12-16 18:08:52 INFO  AuthFilter:76 - Client UNKNOWN
+2022-12-16 18:08:55 INFO  ProfileServlet:31 - Вход на страницу /profile
+2022-12-16 18:08:55 INFO  ProfileServlet:36 - Прием данных с страницы /profile GET
+2022-12-16 18:38:00 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 18:38:00 INFO  DatabaseConnection:131 - getListInstance: Запрашиваю данные из таблицы Instance
+2022-12-16 18:38:01 INFO  DatabaseConnection:149 - getListInstance: Данные из таблицы  Instance
+2022-12-16 18:38:01 INFO  DatabaseConnection:151 - Instance{instanceId=1, bookId=2, presence=1, quantity=10000000}
+2022-12-16 18:38:01 INFO  DatabaseConnection:151 - Instance{instanceId=2, bookId=3, presence=1, quantity=10000}
+2022-12-16 18:38:01 INFO  DatabaseConnection:151 - Instance{instanceId=3, bookId=4, presence=1, quantity=10000000}
+2022-12-16 18:38:01 INFO  DatabaseConnection:151 - Instance{instanceId=4, bookId=5, presence=1, quantity=200000}
+2022-12-16 18:38:01 INFO  DatabaseConnection:151 - Instance{instanceId=5, bookId=6, presence=1, quantity=10000000}
+2022-12-16 18:38:01 INFO  DatabaseConnection:151 - Instance{instanceId=6, bookId=7, presence=1, quantity=1000000}
+2022-12-16 18:38:01 INFO  DatabaseConnection:151 - Instance{instanceId=7, bookId=8, presence=1, quantity=30000000}
+2022-12-16 18:38:01 INFO  DatabaseConnection:151 - Instance{instanceId=8, bookId=9, presence=1, quantity=10000000}
+2022-12-16 18:38:01 INFO  DatabaseConnection:151 - Instance{instanceId=9, bookId=10, presence=1, quantity=10000000}
+2022-12-16 18:38:01 INFO  DatabaseConnection:151 - Instance{instanceId=10, bookId=11, presence=1, quantity=100000}
+2022-12-16 18:38:01 INFO  DatabaseConnection:161 - getListInstance: Возвращаю данные из таблицы Instance
+2022-12-16 18:38:01 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 18:38:01 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 18:38:01 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 18:38:01 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 18:38:01 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 18:38:01 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 18:38:01 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 18:38:05 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 18:38:05 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 18:38:05 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 18:38:05 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 18:38:05 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 18:38:05 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 18:38:05 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 18:38:05 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 18:38:10 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 18:38:10 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 18:38:10 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 18:38:10 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 18:38:10 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 18:38:10 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 18:38:10 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 18:38:10 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 18:38:24 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 18:38:24 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 18:38:24 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 18:38:24 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 18:38:24 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 18:38:24 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 18:38:24 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login=admin password=e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed Есть ли запись в таблице: false
+2022-12-16 18:38:24 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 18:38:34 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 18:38:34 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 18:38:34 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 18:38:34 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 18:38:34 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 18:38:34 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 18:38:34 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login=user password=4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490 Есть ли запись в таблице: false
+2022-12-16 18:38:34 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 18:39:43 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 18:39:43 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 18:39:43 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 18:39:43 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 18:39:43 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 18:39:43 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 18:39:43 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login=admin password=4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490 Есть ли запись в таблице: true
+2022-12-16 18:39:43 INFO  DatabaseConnection:388 - Запрашиваю клиента  из  таблицы Client
+2022-12-16 18:39:43 INFO  DatabaseConnection:389 - Данные из сигнатуры метода login= admin
+2022-12-16 18:39:43 INFO  DatabaseConnection:411 - Client{idClient=0, firstName='null', secondName='null', patronymic='null', login='null', accessLevel='null', password='null', role=UNKNOWN}
+2022-12-16 18:39:43 INFO  AuthFilter:62 - Client:  login=admin  password=4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490 role= UNKNOWN
+2022-12-16 18:40:35 INFO  ProfileServlet:31 - Вход на страницу /profile
+2022-12-16 18:40:35 INFO  ProfileServlet:36 - Прием данных с страницы /profile GET
+2022-12-16 18:40:35 INFO  ProfileServlet:51 - Прием данных с страницы /profile  GET завершен. Client id=0
+2022-12-16 18:40:35 INFO  ProfileServlet:53 - Данные из форм:
+	bookAddId=
+	bookIdDel=
+	dellSubCard= 
+Данные сессии: 
+	idClient=0
+	login=admin
+	password=4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490
+	role=null
+2022-12-16 18:40:35 INFO  DatabaseConnection:304 - Запрашиваю данные из таблицы SubcriptionCard
+2022-12-16 18:40:35 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-14, instanceId=6}
+2022-12-16 18:40:35 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=3}
+2022-12-16 18:40:35 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=8}
+2022-12-16 18:40:35 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=10}
+2022-12-16 18:40:35 INFO  DatabaseConnection:338 - Возвращаю  данные из таблицы SubcriptionCard
+2022-12-16 18:40:35 INFO  DatabaseConnection:206 - getListBook: Запрашиваю данные из таблицы Book
+2022-12-16 18:40:36 INFO  DatabaseConnection:235 - getListBook: Возвращаю  данные из таблицы Book
+2022-12-16 18:40:36 INFO  DatabaseConnection:344 - Запрашиваю выборку из таблиц  Book, Instance, SubscriptionCard,Client
+2022-12-16 18:40:36 INFO  DatabaseConnection:366 - Возвращаю лист  Book: 
+2022-12-16 18:40:43 INFO  ProfileServlet:31 - Вход на страницу /profile
+2022-12-16 18:40:43 INFO  ProfileServlet:36 - Прием данных с страницы /profile GET
+2022-12-16 18:40:43 INFO  ProfileServlet:51 - Прием данных с страницы /profile  GET завершен. Client id=0
+2022-12-16 18:40:43 INFO  ProfileServlet:53 - Данные из форм:
+	bookAddId=
+	bookIdDel=
+	dellSubCard= 
+Данные сессии: 
+	idClient=0
+	login=admin
+	password=4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490
+	role=null
+2022-12-16 18:40:43 INFO  DatabaseConnection:304 - Запрашиваю данные из таблицы SubcriptionCard
+2022-12-16 18:40:43 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-14, instanceId=6}
+2022-12-16 18:40:43 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=3}
+2022-12-16 18:40:43 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=8}
+2022-12-16 18:40:43 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=10}
+2022-12-16 18:40:43 INFO  DatabaseConnection:338 - Возвращаю  данные из таблицы SubcriptionCard
+2022-12-16 18:40:43 INFO  DatabaseConnection:206 - getListBook: Запрашиваю данные из таблицы Book
+2022-12-16 18:40:43 INFO  DatabaseConnection:235 - getListBook: Возвращаю  данные из таблицы Book
+2022-12-16 18:40:43 INFO  DatabaseConnection:344 - Запрашиваю выборку из таблиц  Book, Instance, SubscriptionCard,Client
+2022-12-16 18:40:43 INFO  DatabaseConnection:366 - Возвращаю лист  Book: 
+2022-12-16 18:40:56 INFO  LogoutServlet:21 - Старт закрытия сессии
+2022-12-16 18:40:56 INFO  LogoutServlet:30 - Сессия закрыта 
+2022-12-16 18:40:56 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 18:40:56 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 18:40:56 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 18:40:56 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 18:40:56 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 18:40:56 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 18:40:56 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 18:40:56 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 18:40:59 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 18:40:59 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 18:40:59 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 18:40:59 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 18:40:59 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 18:40:59 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 18:40:59 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 18:40:59 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 18:41:01 INFO  ProfileServlet:31 - Вход на страницу /profile
+2022-12-16 18:41:01 INFO  ProfileServlet:36 - Прием данных с страницы /profile GET
+2022-12-16 18:41:05 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 18:41:05 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 18:41:05 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 18:41:05 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 18:41:05 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 18:41:05 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 18:41:05 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 18:41:05 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 18:41:12 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 18:41:12 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 18:41:12 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 18:41:12 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 18:41:12 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 18:41:12 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 18:41:12 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login=user password=e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed Есть ли запись в таблице: true
+2022-12-16 18:41:12 INFO  DatabaseConnection:388 - Запрашиваю клиента  из  таблицы Client
+2022-12-16 18:41:12 INFO  DatabaseConnection:389 - Данные из сигнатуры метода login= user
+2022-12-16 18:41:12 INFO  DatabaseConnection:411 - Client{idClient=0, firstName='null', secondName='null', patronymic='null', login='null', accessLevel='null', password='null', role=UNKNOWN}
+2022-12-16 18:41:12 INFO  AuthFilter:62 - Client:  login=user  password=e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed role= UNKNOWN
+2022-12-16 18:44:56 INFO  ProfileServlet:31 - Вход на страницу /profile
+2022-12-16 18:44:56 INFO  ProfileServlet:36 - Прием данных с страницы /profile GET
+2022-12-16 18:44:56 INFO  ProfileServlet:51 - Прием данных с страницы /profile  GET завершен. Client id=0
+2022-12-16 18:44:56 INFO  ProfileServlet:53 - Данные из форм:
+	bookAddId=
+	bookIdDel=
+	dellSubCard= 
+Данные сессии: 
+	idClient=0
+	login=user
+	password=e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed
+	role=null
+2022-12-16 18:44:56 INFO  DatabaseConnection:304 - Запрашиваю данные из таблицы SubcriptionCard
+2022-12-16 18:44:56 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-14, instanceId=6}
+2022-12-16 18:44:56 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=3}
+2022-12-16 18:44:56 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=8}
+2022-12-16 18:44:56 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=10}
+2022-12-16 18:44:56 INFO  DatabaseConnection:338 - Возвращаю  данные из таблицы SubcriptionCard
+2022-12-16 18:44:56 INFO  DatabaseConnection:206 - getListBook: Запрашиваю данные из таблицы Book
+2022-12-16 18:44:56 INFO  DatabaseConnection:235 - getListBook: Возвращаю  данные из таблицы Book
+2022-12-16 18:44:56 INFO  DatabaseConnection:344 - Запрашиваю выборку из таблиц  Book, Instance, SubscriptionCard,Client
+2022-12-16 18:44:56 INFO  DatabaseConnection:366 - Возвращаю лист  Book: 
+2022-12-16 18:46:07 INFO  RegisterServlet:26 - Вход на страницу /registration
+2022-12-16 18:46:33 INFO  RegisterServlet:37 - Прием данных с страницы /registration
+2022-12-16 18:46:33 INFO  DatabaseConnection:451 - Начинаю добавление в таблицу Client
+2022-12-16 18:46:34 INFO  DatabaseConnection:475 - java.sql.SQLException: Field 'clientId' doesn't have a default value
+2022-12-16 18:46:34 INFO  DatabaseConnection:477 - Данные в таблицу Client добавлены
+2022-12-16 18:46:34 INFO  RegisterServlet:51 - Пользователь создан
+2022-12-16 18:46:34 INFO  MainServlet:24 - Вход на страницу /home
+2022-12-16 18:46:36 INFO  ProfileServlet:31 - Вход на страницу /profile
+2022-12-16 18:46:36 INFO  ProfileServlet:36 - Прием данных с страницы /profile GET
+2022-12-16 18:46:36 INFO  ProfileServlet:51 - Прием данных с страницы /profile  GET завершен. Client id=0
+2022-12-16 18:46:36 INFO  ProfileServlet:53 - Данные из форм:
+	bookAddId=
+	bookIdDel=
+	dellSubCard= 
+Данные сессии: 
+	idClient=0
+	login=user
+	password=e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed
+	role=null
+2022-12-16 18:46:36 INFO  DatabaseConnection:304 - Запрашиваю данные из таблицы SubcriptionCard
+2022-12-16 18:46:37 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-14, instanceId=6}
+2022-12-16 18:46:37 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=3}
+2022-12-16 18:46:37 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=8}
+2022-12-16 18:46:37 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=10}
+2022-12-16 18:46:37 INFO  DatabaseConnection:338 - Возвращаю  данные из таблицы SubcriptionCard
+2022-12-16 18:46:37 INFO  DatabaseConnection:206 - getListBook: Запрашиваю данные из таблицы Book
+2022-12-16 18:46:37 INFO  DatabaseConnection:235 - getListBook: Возвращаю  данные из таблицы Book
+2022-12-16 18:46:37 INFO  DatabaseConnection:344 - Запрашиваю выборку из таблиц  Book, Instance, SubscriptionCard,Client
+2022-12-16 18:46:37 INFO  DatabaseConnection:366 - Возвращаю лист  Book: 
+2022-12-16 18:46:41 INFO  LogoutServlet:21 - Старт закрытия сессии
+2022-12-16 18:46:41 INFO  LogoutServlet:30 - Сессия закрыта 
+2022-12-16 18:46:42 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 18:46:42 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 18:46:42 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 18:46:42 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 18:46:42 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 18:46:42 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 18:46:42 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 18:46:42 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 18:46:48 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 18:46:48 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 18:46:48 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 18:46:48 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 18:46:48 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 18:46:48 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 18:46:48 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login=test password=e952f1ad7293a906c8d628a83ff057e51c3e56bb5db5dcb22b1b6d7bef29b599642d86d90473c121bff680c33273054a8923a5c35d6e3973a1922fffa1afde4c Есть ли запись в таблице: false
+2022-12-16 18:46:48 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 19:12:17 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:12:17 INFO  DatabaseConnection:131 - getListInstance: Запрашиваю данные из таблицы Instance
+2022-12-16 19:12:19 INFO  DatabaseConnection:149 - getListInstance: Данные из таблицы  Instance
+2022-12-16 19:12:19 INFO  DatabaseConnection:151 - Instance{instanceId=1, bookId=2, presence=1, quantity=10000000}
+2022-12-16 19:12:19 INFO  DatabaseConnection:151 - Instance{instanceId=2, bookId=3, presence=1, quantity=10000}
+2022-12-16 19:12:19 INFO  DatabaseConnection:151 - Instance{instanceId=3, bookId=4, presence=1, quantity=10000000}
+2022-12-16 19:12:19 INFO  DatabaseConnection:151 - Instance{instanceId=4, bookId=5, presence=1, quantity=200000}
+2022-12-16 19:12:19 INFO  DatabaseConnection:151 - Instance{instanceId=5, bookId=6, presence=1, quantity=10000000}
+2022-12-16 19:12:19 INFO  DatabaseConnection:151 - Instance{instanceId=6, bookId=7, presence=1, quantity=1000000}
+2022-12-16 19:12:19 INFO  DatabaseConnection:151 - Instance{instanceId=7, bookId=8, presence=1, quantity=30000000}
+2022-12-16 19:12:19 INFO  DatabaseConnection:151 - Instance{instanceId=8, bookId=9, presence=1, quantity=10000000}
+2022-12-16 19:12:19 INFO  DatabaseConnection:151 - Instance{instanceId=9, bookId=10, presence=1, quantity=10000000}
+2022-12-16 19:12:19 INFO  DatabaseConnection:151 - Instance{instanceId=10, bookId=11, presence=1, quantity=100000}
+2022-12-16 19:12:19 INFO  DatabaseConnection:161 - getListInstance: Возвращаю данные из таблицы Instance
+2022-12-16 19:12:19 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:12:20 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:12:20 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:12:20 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:12:20 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:12:20 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 19:12:20 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 19:12:24 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:12:24 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:12:24 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:12:24 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:12:24 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:12:24 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:12:24 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 19:12:24 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 19:12:33 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:12:33 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:12:33 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:12:33 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:12:33 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:12:33 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:12:33 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 19:12:33 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 19:13:03 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:13:03 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:13:03 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:13:03 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:13:03 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:13:03 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:13:03 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login=admin password=4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490 Есть ли запись в таблице: true
+2022-12-16 19:13:03 INFO  DatabaseConnection:388 - Запрашиваю клиента  из  таблицы Client
+2022-12-16 19:13:03 INFO  DatabaseConnection:389 - Данные из сигнатуры метода login= admin
+2022-12-16 19:13:03 INFO  DatabaseConnection:411 - Client{idClient=0, firstName='null', secondName='null', patronymic='null', login='null', accessLevel='null', password='null', role=UNKNOWN}
+2022-12-16 19:13:03 INFO  AuthFilter:62 - Client:  login=admin  password=4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490 role= UNKNOWN
+2022-12-16 19:16:15 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:16:15 INFO  DatabaseConnection:131 - getListInstance: Запрашиваю данные из таблицы Instance
+2022-12-16 19:16:19 INFO  DatabaseConnection:149 - getListInstance: Данные из таблицы  Instance
+2022-12-16 19:16:19 INFO  DatabaseConnection:151 - Instance{instanceId=1, bookId=2, presence=1, quantity=10000000}
+2022-12-16 19:16:19 INFO  DatabaseConnection:151 - Instance{instanceId=2, bookId=3, presence=1, quantity=10000}
+2022-12-16 19:16:19 INFO  DatabaseConnection:151 - Instance{instanceId=3, bookId=4, presence=1, quantity=10000000}
+2022-12-16 19:16:19 INFO  DatabaseConnection:151 - Instance{instanceId=4, bookId=5, presence=1, quantity=200000}
+2022-12-16 19:16:19 INFO  DatabaseConnection:151 - Instance{instanceId=5, bookId=6, presence=1, quantity=10000000}
+2022-12-16 19:16:19 INFO  DatabaseConnection:151 - Instance{instanceId=6, bookId=7, presence=1, quantity=1000000}
+2022-12-16 19:16:19 INFO  DatabaseConnection:151 - Instance{instanceId=7, bookId=8, presence=1, quantity=30000000}
+2022-12-16 19:16:19 INFO  DatabaseConnection:151 - Instance{instanceId=8, bookId=9, presence=1, quantity=10000000}
+2022-12-16 19:16:19 INFO  DatabaseConnection:151 - Instance{instanceId=9, bookId=10, presence=1, quantity=10000000}
+2022-12-16 19:16:19 INFO  DatabaseConnection:151 - Instance{instanceId=10, bookId=11, presence=1, quantity=100000}
+2022-12-16 19:16:19 INFO  DatabaseConnection:161 - getListInstance: Возвращаю данные из таблицы Instance
+2022-12-16 19:16:20 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:16:20 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:16:20 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:16:20 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:16:20 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:16:20 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 19:16:20 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 19:16:30 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:16:30 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:16:30 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:16:30 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:16:30 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:16:30 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:16:30 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 19:16:30 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 19:16:31 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:16:31 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:16:32 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:16:32 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:16:32 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:16:32 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:16:32 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login=admin password=4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490 Есть ли запись в таблице: true
+2022-12-16 19:16:32 INFO  DatabaseConnection:388 - Запрашиваю клиента  из  таблицы Client
+2022-12-16 19:16:32 INFO  DatabaseConnection:389 - Данные из сигнатуры метода login= admin
+2022-12-16 19:16:32 INFO  DatabaseConnection:411 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:16:32 INFO  AuthFilter:62 - Client:  login=admin  password=4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490 role= ADMIN
+2022-12-16 19:16:32 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:16:32 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:16:32 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:16:32 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:16:32 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:16:32 INFO  DatabaseConnection:206 - getListBook: Запрашиваю данные из таблицы Book
+2022-12-16 19:16:33 INFO  DatabaseConnection:235 - getListBook: Возвращаю  данные из таблицы Book
+2022-12-16 19:16:33 INFO  AdminServlet:41 - Вход на страницу /adminPanel
+2022-12-16 19:16:37 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:16:37 INFO  AuthFilter:50 - Client:  login=  password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705
+2022-12-16 19:18:46 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:18:46 INFO  AuthFilter:50 - Client:  login=  password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705
+2022-12-16 19:18:55 INFO  AdminServlet:41 - Вход на страницу /adminPanel
+2022-12-16 19:19:06 INFO  AdminServlet:41 - Вход на страницу /adminPanel
+2022-12-16 19:19:30 INFO  AdminServlet:41 - Вход на страницу /adminPanel
+2022-12-16 19:20:02 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:20:02 INFO  AuthFilter:50 - Client:  login=  password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705
+2022-12-16 19:20:13 INFO  LogoutServlet:21 - Старт закрытия сессии
+2022-12-16 19:20:13 INFO  LogoutServlet:30 - Сессия закрыта 
+2022-12-16 19:20:13 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:20:13 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:20:13 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:20:13 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:20:13 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:20:13 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:20:13 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 19:20:13 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 19:20:56 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:20:56 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:20:56 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:20:56 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:20:56 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:20:56 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:20:56 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login=user password=e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed Есть ли запись в таблице: true
+2022-12-16 19:20:56 INFO  DatabaseConnection:388 - Запрашиваю клиента  из  таблицы Client
+2022-12-16 19:20:56 INFO  DatabaseConnection:389 - Данные из сигнатуры метода login= user
+2022-12-16 19:20:57 INFO  DatabaseConnection:411 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:20:57 INFO  AuthFilter:62 - Client:  login=user  password=e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed role= USER
+2022-12-16 19:20:59 INFO  ProfileServlet:31 - Вход на страницу /profile
+2022-12-16 19:20:59 INFO  ProfileServlet:36 - Прием данных с страницы /profile GET
+2022-12-16 19:20:59 INFO  ProfileServlet:51 - Прием данных с страницы /profile  GET завершен. Client id=2
+2022-12-16 19:20:59 INFO  ProfileServlet:53 - Данные из форм:
+	bookAddId=
+	bookIdDel=
+	dellSubCard= 
+Данные сессии: 
+	idClient=2
+	login=user
+	password=e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed
+	role=null
+2022-12-16 19:20:59 INFO  DatabaseConnection:304 - Запрашиваю данные из таблицы SubcriptionCard
+2022-12-16 19:20:59 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-14, instanceId=6}
+2022-12-16 19:20:59 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=3}
+2022-12-16 19:20:59 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=8}
+2022-12-16 19:20:59 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=10}
+2022-12-16 19:20:59 INFO  DatabaseConnection:338 - Возвращаю  данные из таблицы SubcriptionCard
+2022-12-16 19:20:59 INFO  DatabaseConnection:206 - getListBook: Запрашиваю данные из таблицы Book
+2022-12-16 19:21:00 INFO  DatabaseConnection:235 - getListBook: Возвращаю  данные из таблицы Book
+2022-12-16 19:21:00 INFO  DatabaseConnection:344 - Запрашиваю выборку из таблиц  Book, Instance, SubscriptionCard,Client
+2022-12-16 19:21:00 INFO  DatabaseConnection:366 - Возвращаю лист  Book: 
+2022-12-16 19:21:00 INFO  DatabaseConnection:369 - Book: Book{bookId=7, bookName='Файлы Фредди ', description='Дополненное новое издание! Такого вы ещё не знали! Эту книгу вы так долго ждали!', place='Саратов', pubclishingHouse='ОНИКС'}
+2022-12-16 19:21:00 INFO  DatabaseConnection:369 - Book: Book{bookId=4, bookName='Собирайся, мы уезжаем: Глянец', description='«Собирайся, мы уезжаем» – моя дебютная повесть. Редактор выловила ее из залежей папок, которые громоздились на подоконнике, заслоняя дневной свет. Это книга искренняя, наивная, одновременно жесткая,', place='Саратов', pubclishingHouse='Интеллект'}
+2022-12-16 19:21:00 INFO  DatabaseConnection:369 - Book: Book{bookId=9, bookName='Ребенок в тебе должен обрести дом', description='Когда Сабина забывает купить любимую колбасу мужа, Михаэль гневается и кричит на неё. Дело не в колбасе: Михаэлю в этот момент кажется, будто его желания и потребности игнорируются. Так регулярно поступала его мать.', place='Москва', pubclishingHouse='Росмэн'}
+2022-12-16 19:21:00 INFO  DatabaseConnection:369 - Book: Book{bookId=11, bookName='Земля Королей. Червовый том', description='Восемь карточных олицетворений, валеты и короли четырёх мастей с абсолютно разными характерами и темпераментами, оказались заперты друг с другом в параллельном измерении', place='Москва', pubclishingHouse='Росмэн'}
+2022-12-16 19:21:09 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:21:09 INFO  AuthFilter:50 - Client:  login=  password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705
+2022-12-16 19:21:17 INFO  ProfileServlet:31 - Вход на страницу /profile
+2022-12-16 19:21:17 INFO  ProfileServlet:36 - Прием данных с страницы /profile GET
+2022-12-16 19:21:17 INFO  ProfileServlet:51 - Прием данных с страницы /profile  GET завершен. Client id=2
+2022-12-16 19:21:17 INFO  ProfileServlet:53 - Данные из форм:
+	bookAddId=
+	bookIdDel=
+	dellSubCard= 6
+Данные сессии: 
+	idClient=2
+	login=user
+	password=e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed
+	role=null
+2022-12-16 19:21:17 INFO  DatabaseConnection:304 - Запрашиваю данные из таблицы SubcriptionCard
+2022-12-16 19:21:17 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-14, instanceId=6}
+2022-12-16 19:21:17 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=3}
+2022-12-16 19:21:17 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=8}
+2022-12-16 19:21:17 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=10}
+2022-12-16 19:21:17 INFO  DatabaseConnection:338 - Возвращаю  данные из таблицы SubcriptionCard
+2022-12-16 19:21:17 INFO  DatabaseConnection:206 - getListBook: Запрашиваю данные из таблицы Book
+2022-12-16 19:21:17 INFO  DatabaseConnection:235 - getListBook: Возвращаю  данные из таблицы Book
+2022-12-16 19:21:17 INFO  DatabaseConnection:344 - Запрашиваю выборку из таблиц  Book, Instance, SubscriptionCard,Client
+2022-12-16 19:21:17 INFO  DatabaseConnection:366 - Возвращаю лист  Book: 
+2022-12-16 19:21:17 INFO  DatabaseConnection:369 - Book: Book{bookId=7, bookName='Файлы Фредди ', description='Дополненное новое издание! Такого вы ещё не знали! Эту книгу вы так долго ждали!', place='Саратов', pubclishingHouse='ОНИКС'}
+2022-12-16 19:21:17 INFO  DatabaseConnection:369 - Book: Book{bookId=4, bookName='Собирайся, мы уезжаем: Глянец', description='«Собирайся, мы уезжаем» – моя дебютная повесть. Редактор выловила ее из залежей папок, которые громоздились на подоконнике, заслоняя дневной свет. Это книга искренняя, наивная, одновременно жесткая,', place='Саратов', pubclishingHouse='Интеллект'}
+2022-12-16 19:21:17 INFO  DatabaseConnection:369 - Book: Book{bookId=9, bookName='Ребенок в тебе должен обрести дом', description='Когда Сабина забывает купить любимую колбасу мужа, Михаэль гневается и кричит на неё. Дело не в колбасе: Михаэлю в этот момент кажется, будто его желания и потребности игнорируются. Так регулярно поступала его мать.', place='Москва', pubclishingHouse='Росмэн'}
+2022-12-16 19:21:17 INFO  DatabaseConnection:369 - Book: Book{bookId=11, bookName='Земля Королей. Червовый том', description='Восемь карточных олицетворений, валеты и короли четырёх мастей с абсолютно разными характерами и темпераментами, оказались заперты друг с другом в параллельном измерении', place='Москва', pubclishingHouse='Росмэн'}
+2022-12-16 19:21:17 INFO  ProfileServlet:323 - Клиент id=2 отправляет запрос на удаление пользовательской карты id=6
+2022-12-16 19:21:17 INFO  DatabaseConnection:556 - dellSabCardUser: Начинаю удаление  подписочной карты пользователя
+2022-12-16 19:21:18 INFO  DatabaseConnection:565 - dellSabCardUser: Данные   удалены
+2022-12-16 19:21:18 INFO  ProfileServlet:325 - Удаление  пользовательской карты успешно завершено
+2022-12-16 19:21:20 INFO  ProfileServlet:31 - Вход на страницу /profile
+2022-12-16 19:21:20 INFO  ProfileServlet:36 - Прием данных с страницы /profile GET
+2022-12-16 19:21:20 INFO  ProfileServlet:51 - Прием данных с страницы /profile  GET завершен. Client id=2
+2022-12-16 19:21:20 INFO  ProfileServlet:53 - Данные из форм:
+	bookAddId=
+	bookIdDel=
+	dellSubCard= 6
+Данные сессии: 
+	idClient=2
+	login=user
+	password=e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed
+	role=null
+2022-12-16 19:21:20 INFO  DatabaseConnection:304 - Запрашиваю данные из таблицы SubcriptionCard
+2022-12-16 19:21:20 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=3}
+2022-12-16 19:21:20 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=8}
+2022-12-16 19:21:20 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=10}
+2022-12-16 19:21:20 INFO  DatabaseConnection:338 - Возвращаю  данные из таблицы SubcriptionCard
+2022-12-16 19:21:20 INFO  DatabaseConnection:206 - getListBook: Запрашиваю данные из таблицы Book
+2022-12-16 19:21:20 INFO  DatabaseConnection:235 - getListBook: Возвращаю  данные из таблицы Book
+2022-12-16 19:21:20 INFO  DatabaseConnection:344 - Запрашиваю выборку из таблиц  Book, Instance, SubscriptionCard,Client
+2022-12-16 19:21:20 INFO  DatabaseConnection:366 - Возвращаю лист  Book: 
+2022-12-16 19:21:20 INFO  DatabaseConnection:369 - Book: Book{bookId=4, bookName='Собирайся, мы уезжаем: Глянец', description='«Собирайся, мы уезжаем» – моя дебютная повесть. Редактор выловила ее из залежей папок, которые громоздились на подоконнике, заслоняя дневной свет. Это книга искренняя, наивная, одновременно жесткая,', place='Саратов', pubclishingHouse='Интеллект'}
+2022-12-16 19:21:20 INFO  DatabaseConnection:369 - Book: Book{bookId=9, bookName='Ребенок в тебе должен обрести дом', description='Когда Сабина забывает купить любимую колбасу мужа, Михаэль гневается и кричит на неё. Дело не в колбасе: Михаэлю в этот момент кажется, будто его желания и потребности игнорируются. Так регулярно поступала его мать.', place='Москва', pubclishingHouse='Росмэн'}
+2022-12-16 19:21:20 INFO  DatabaseConnection:369 - Book: Book{bookId=11, bookName='Земля Королей. Червовый том', description='Восемь карточных олицетворений, валеты и короли четырёх мастей с абсолютно разными характерами и темпераментами, оказались заперты друг с другом в параллельном измерении', place='Москва', pubclishingHouse='Росмэн'}
+2022-12-16 19:21:20 INFO  ProfileServlet:323 - Клиент id=2 отправляет запрос на удаление пользовательской карты id=6
+2022-12-16 19:21:20 INFO  DatabaseConnection:556 - dellSabCardUser: Начинаю удаление  подписочной карты пользователя
+2022-12-16 19:21:20 INFO  DatabaseConnection:565 - dellSabCardUser: Данные   удалены
+2022-12-16 19:21:20 INFO  ProfileServlet:325 - Удаление  пользовательской карты успешно завершено
+2022-12-16 19:21:28 INFO  ProfileServlet:31 - Вход на страницу /profile
+2022-12-16 19:21:28 INFO  ProfileServlet:36 - Прием данных с страницы /profile GET
+2022-12-16 19:21:28 INFO  ProfileServlet:51 - Прием данных с страницы /profile  GET завершен. Client id=2
+2022-12-16 19:21:28 INFO  ProfileServlet:53 - Данные из форм:
+	bookAddId=3
+	bookIdDel=
+	dellSubCard= 
+Данные сессии: 
+	idClient=2
+	login=user
+	password=e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed
+	role=null
+2022-12-16 19:21:28 INFO  DatabaseConnection:304 - Запрашиваю данные из таблицы SubcriptionCard
+2022-12-16 19:21:28 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=3}
+2022-12-16 19:21:28 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=8}
+2022-12-16 19:21:28 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=10}
+2022-12-16 19:21:28 INFO  DatabaseConnection:338 - Возвращаю  данные из таблицы SubcriptionCard
+2022-12-16 19:21:28 INFO  DatabaseConnection:206 - getListBook: Запрашиваю данные из таблицы Book
+2022-12-16 19:21:28 INFO  DatabaseConnection:235 - getListBook: Возвращаю  данные из таблицы Book
+2022-12-16 19:21:28 INFO  DatabaseConnection:344 - Запрашиваю выборку из таблиц  Book, Instance, SubscriptionCard,Client
+2022-12-16 19:21:28 INFO  DatabaseConnection:366 - Возвращаю лист  Book: 
+2022-12-16 19:21:28 INFO  DatabaseConnection:369 - Book: Book{bookId=4, bookName='Собирайся, мы уезжаем: Глянец', description='«Собирайся, мы уезжаем» – моя дебютная повесть. Редактор выловила ее из залежей папок, которые громоздились на подоконнике, заслоняя дневной свет. Это книга искренняя, наивная, одновременно жесткая,', place='Саратов', pubclishingHouse='Интеллект'}
+2022-12-16 19:21:28 INFO  DatabaseConnection:369 - Book: Book{bookId=9, bookName='Ребенок в тебе должен обрести дом', description='Когда Сабина забывает купить любимую колбасу мужа, Михаэль гневается и кричит на неё. Дело не в колбасе: Михаэлю в этот момент кажется, будто его желания и потребности игнорируются. Так регулярно поступала его мать.', place='Москва', pubclishingHouse='Росмэн'}
+2022-12-16 19:21:28 INFO  DatabaseConnection:369 - Book: Book{bookId=11, bookName='Земля Королей. Червовый том', description='Восемь карточных олицетворений, валеты и короли четырёх мастей с абсолютно разными характерами и темпераментами, оказались заперты друг с другом в параллельном измерении', place='Москва', pubclishingHouse='Росмэн'}
+2022-12-16 19:21:28 INFO  ProfileServlet:330 - Клиент id=2  отправил запрос на добавление книги (читательской карты) id=3
+2022-12-16 19:21:28 INFO  DatabaseConnection:484 - addSubcriptionCard: Начинаю создание читательской карты пользователя id=2
+2022-12-16 19:21:28 INFO  DatabaseConnection:501 - addSubcriptionCard: clientId = 2 instanceId = 3
+2022-12-16 19:21:28 INFO  DatabaseConnection:519 - addSubcriptionCard: Создание пользовательской карты завершено
+2022-12-16 19:21:28 INFO  ProfileServlet:332 - Добавление книги в пользовательскую карту успешно завершено
+2022-12-16 19:21:31 INFO  ProfileServlet:31 - Вход на страницу /profile
+2022-12-16 19:21:31 INFO  ProfileServlet:36 - Прием данных с страницы /profile GET
+2022-12-16 19:21:31 INFO  ProfileServlet:51 - Прием данных с страницы /profile  GET завершен. Client id=2
+2022-12-16 19:21:31 INFO  ProfileServlet:53 - Данные из форм:
+	bookAddId=3
+	bookIdDel=
+	dellSubCard= 
+Данные сессии: 
+	idClient=2
+	login=user
+	password=e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed
+	role=null
+2022-12-16 19:21:31 INFO  DatabaseConnection:304 - Запрашиваю данные из таблицы SubcriptionCard
+2022-12-16 19:21:31 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=3}
+2022-12-16 19:21:31 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=8}
+2022-12-16 19:21:31 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=10}
+2022-12-16 19:21:31 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-16, planned_date=2022-12-16, returnDate=2022-12-26, instanceId=3}
+2022-12-16 19:21:31 INFO  DatabaseConnection:338 - Возвращаю  данные из таблицы SubcriptionCard
+2022-12-16 19:21:31 INFO  DatabaseConnection:206 - getListBook: Запрашиваю данные из таблицы Book
+2022-12-16 19:21:31 INFO  DatabaseConnection:235 - getListBook: Возвращаю  данные из таблицы Book
+2022-12-16 19:21:31 INFO  DatabaseConnection:344 - Запрашиваю выборку из таблиц  Book, Instance, SubscriptionCard,Client
+2022-12-16 19:21:31 INFO  DatabaseConnection:366 - Возвращаю лист  Book: 
+2022-12-16 19:21:31 INFO  DatabaseConnection:369 - Book: Book{bookId=4, bookName='Собирайся, мы уезжаем: Глянец', description='«Собирайся, мы уезжаем» – моя дебютная повесть. Редактор выловила ее из залежей папок, которые громоздились на подоконнике, заслоняя дневной свет. Это книга искренняя, наивная, одновременно жесткая,', place='Саратов', pubclishingHouse='Интеллект'}
+2022-12-16 19:21:31 INFO  DatabaseConnection:369 - Book: Book{bookId=9, bookName='Ребенок в тебе должен обрести дом', description='Когда Сабина забывает купить любимую колбасу мужа, Михаэль гневается и кричит на неё. Дело не в колбасе: Михаэлю в этот момент кажется, будто его желания и потребности игнорируются. Так регулярно поступала его мать.', place='Москва', pubclishingHouse='Росмэн'}
+2022-12-16 19:21:31 INFO  DatabaseConnection:369 - Book: Book{bookId=11, bookName='Земля Королей. Червовый том', description='Восемь карточных олицетворений, валеты и короли четырёх мастей с абсолютно разными характерами и темпераментами, оказались заперты друг с другом в параллельном измерении', place='Москва', pubclishingHouse='Росмэн'}
+2022-12-16 19:21:31 INFO  DatabaseConnection:369 - Book: Book{bookId=4, bookName='Собирайся, мы уезжаем: Глянец', description='«Собирайся, мы уезжаем» – моя дебютная повесть. Редактор выловила ее из залежей папок, которые громоздились на подоконнике, заслоняя дневной свет. Это книга искренняя, наивная, одновременно жесткая,', place='Саратов', pubclishingHouse='Интеллект'}
+2022-12-16 19:21:31 INFO  ProfileServlet:330 - Клиент id=2  отправил запрос на добавление книги (читательской карты) id=3
+2022-12-16 19:21:31 INFO  DatabaseConnection:484 - addSubcriptionCard: Начинаю создание читательской карты пользователя id=2
+2022-12-16 19:21:31 INFO  DatabaseConnection:501 - addSubcriptionCard: clientId = 2 instanceId = 3
+2022-12-16 19:21:31 INFO  DatabaseConnection:519 - addSubcriptionCard: Создание пользовательской карты завершено
+2022-12-16 19:21:31 INFO  ProfileServlet:332 - Добавление книги в пользовательскую карту успешно завершено
+2022-12-16 19:21:38 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:21:38 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:21:38 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:21:38 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:21:38 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:21:38 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:21:38 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 19:21:38 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 19:21:41 INFO  ProfileServlet:31 - Вход на страницу /profile
+2022-12-16 19:21:41 INFO  ProfileServlet:36 - Прием данных с страницы /profile GET
+2022-12-16 19:21:41 INFO  ProfileServlet:51 - Прием данных с страницы /profile  GET завершен. Client id=2
+2022-12-16 19:21:41 INFO  ProfileServlet:53 - Данные из форм:
+	bookAddId=
+	bookIdDel=
+	dellSubCard= 
+Данные сессии: 
+	idClient=2
+	login=user
+	password=e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed
+	role=null
+2022-12-16 19:21:41 INFO  DatabaseConnection:304 - Запрашиваю данные из таблицы SubcriptionCard
+2022-12-16 19:21:41 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=3}
+2022-12-16 19:21:41 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=8}
+2022-12-16 19:21:41 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=10}
+2022-12-16 19:21:41 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-16, planned_date=2022-12-16, returnDate=2022-12-26, instanceId=3}
+2022-12-16 19:21:41 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-16, planned_date=2022-12-16, returnDate=2022-12-26, instanceId=3}
+2022-12-16 19:21:41 INFO  DatabaseConnection:338 - Возвращаю  данные из таблицы SubcriptionCard
+2022-12-16 19:21:41 INFO  DatabaseConnection:206 - getListBook: Запрашиваю данные из таблицы Book
+2022-12-16 19:21:41 INFO  DatabaseConnection:235 - getListBook: Возвращаю  данные из таблицы Book
+2022-12-16 19:21:41 INFO  DatabaseConnection:344 - Запрашиваю выборку из таблиц  Book, Instance, SubscriptionCard,Client
+2022-12-16 19:21:41 INFO  DatabaseConnection:366 - Возвращаю лист  Book: 
+2022-12-16 19:21:41 INFO  DatabaseConnection:369 - Book: Book{bookId=4, bookName='Собирайся, мы уезжаем: Глянец', description='«Собирайся, мы уезжаем» – моя дебютная повесть. Редактор выловила ее из залежей папок, которые громоздились на подоконнике, заслоняя дневной свет. Это книга искренняя, наивная, одновременно жесткая,', place='Саратов', pubclishingHouse='Интеллект'}
+2022-12-16 19:21:41 INFO  DatabaseConnection:369 - Book: Book{bookId=9, bookName='Ребенок в тебе должен обрести дом', description='Когда Сабина забывает купить любимую колбасу мужа, Михаэль гневается и кричит на неё. Дело не в колбасе: Михаэлю в этот момент кажется, будто его желания и потребности игнорируются. Так регулярно поступала его мать.', place='Москва', pubclishingHouse='Росмэн'}
+2022-12-16 19:21:41 INFO  DatabaseConnection:369 - Book: Book{bookId=11, bookName='Земля Королей. Червовый том', description='Восемь карточных олицетворений, валеты и короли четырёх мастей с абсолютно разными характерами и темпераментами, оказались заперты друг с другом в параллельном измерении', place='Москва', pubclishingHouse='Росмэн'}
+2022-12-16 19:21:41 INFO  DatabaseConnection:369 - Book: Book{bookId=4, bookName='Собирайся, мы уезжаем: Глянец', description='«Собирайся, мы уезжаем» – моя дебютная повесть. Редактор выловила ее из залежей папок, которые громоздились на подоконнике, заслоняя дневной свет. Это книга искренняя, наивная, одновременно жесткая,', place='Саратов', pubclishingHouse='Интеллект'}
+2022-12-16 19:21:41 INFO  DatabaseConnection:369 - Book: Book{bookId=4, bookName='Собирайся, мы уезжаем: Глянец', description='«Собирайся, мы уезжаем» – моя дебютная повесть. Редактор выловила ее из залежей папок, которые громоздились на подоконнике, заслоняя дневной свет. Это книга искренняя, наивная, одновременно жесткая,', place='Саратов', pubclishingHouse='Интеллект'}
+2022-12-16 19:21:53 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:21:53 INFO  AuthFilter:50 - Client:  login=  password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705
+2022-12-16 19:25:40 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:25:40 INFO  AuthFilter:50 - Client:  login=  password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705
+2022-12-16 19:25:44 INFO  ProfileServlet:31 - Вход на страницу /profile
+2022-12-16 19:25:44 INFO  ProfileServlet:36 - Прием данных с страницы /profile GET
+2022-12-16 19:25:44 INFO  ProfileServlet:51 - Прием данных с страницы /profile  GET завершен. Client id=2
+2022-12-16 19:25:44 INFO  ProfileServlet:53 - Данные из форм:
+	bookAddId=
+	bookIdDel=
+	dellSubCard= 
+Данные сессии: 
+	idClient=2
+	login=user
+	password=e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed
+	role=null
+2022-12-16 19:25:44 INFO  DatabaseConnection:304 - Запрашиваю данные из таблицы SubcriptionCard
+2022-12-16 19:25:44 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=3}
+2022-12-16 19:25:44 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=8}
+2022-12-16 19:25:44 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=10}
+2022-12-16 19:25:44 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-16, planned_date=2022-12-16, returnDate=2022-12-26, instanceId=3}
+2022-12-16 19:25:44 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-16, planned_date=2022-12-16, returnDate=2022-12-26, instanceId=3}
+2022-12-16 19:25:44 INFO  DatabaseConnection:338 - Возвращаю  данные из таблицы SubcriptionCard
+2022-12-16 19:25:44 INFO  DatabaseConnection:206 - getListBook: Запрашиваю данные из таблицы Book
+2022-12-16 19:25:45 INFO  DatabaseConnection:235 - getListBook: Возвращаю  данные из таблицы Book
+2022-12-16 19:25:45 INFO  DatabaseConnection:344 - Запрашиваю выборку из таблиц  Book, Instance, SubscriptionCard,Client
+2022-12-16 19:25:45 INFO  DatabaseConnection:366 - Возвращаю лист  Book: 
+2022-12-16 19:25:45 INFO  DatabaseConnection:369 - Book: Book{bookId=4, bookName='Собирайся, мы уезжаем: Глянец', description='«Собирайся, мы уезжаем» – моя дебютная повесть. Редактор выловила ее из залежей папок, которые громоздились на подоконнике, заслоняя дневной свет. Это книга искренняя, наивная, одновременно жесткая,', place='Саратов', pubclishingHouse='Интеллект'}
+2022-12-16 19:25:45 INFO  DatabaseConnection:369 - Book: Book{bookId=9, bookName='Ребенок в тебе должен обрести дом', description='Когда Сабина забывает купить любимую колбасу мужа, Михаэль гневается и кричит на неё. Дело не в колбасе: Михаэлю в этот момент кажется, будто его желания и потребности игнорируются. Так регулярно поступала его мать.', place='Москва', pubclishingHouse='Росмэн'}
+2022-12-16 19:25:45 INFO  DatabaseConnection:369 - Book: Book{bookId=11, bookName='Земля Королей. Червовый том', description='Восемь карточных олицетворений, валеты и короли четырёх мастей с абсолютно разными характерами и темпераментами, оказались заперты друг с другом в параллельном измерении', place='Москва', pubclishingHouse='Росмэн'}
+2022-12-16 19:25:45 INFO  DatabaseConnection:369 - Book: Book{bookId=4, bookName='Собирайся, мы уезжаем: Глянец', description='«Собирайся, мы уезжаем» – моя дебютная повесть. Редактор выловила ее из залежей папок, которые громоздились на подоконнике, заслоняя дневной свет. Это книга искренняя, наивная, одновременно жесткая,', place='Саратов', pubclishingHouse='Интеллект'}
+2022-12-16 19:25:45 INFO  DatabaseConnection:369 - Book: Book{bookId=4, bookName='Собирайся, мы уезжаем: Глянец', description='«Собирайся, мы уезжаем» – моя дебютная повесть. Редактор выловила ее из залежей папок, которые громоздились на подоконнике, заслоняя дневной свет. Это книга искренняя, наивная, одновременно жесткая,', place='Саратов', pubclishingHouse='Интеллект'}
+2022-12-16 19:30:00 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:30:00 INFO  DatabaseConnection:131 - getListInstance: Запрашиваю данные из таблицы Instance
+2022-12-16 19:30:02 INFO  DatabaseConnection:149 - getListInstance: Данные из таблицы  Instance
+2022-12-16 19:30:02 INFO  DatabaseConnection:151 - Instance{instanceId=1, bookId=2, presence=1, quantity=10000000}
+2022-12-16 19:30:02 INFO  DatabaseConnection:151 - Instance{instanceId=2, bookId=3, presence=1, quantity=10000}
+2022-12-16 19:30:02 INFO  DatabaseConnection:151 - Instance{instanceId=3, bookId=4, presence=1, quantity=10000000}
+2022-12-16 19:30:02 INFO  DatabaseConnection:151 - Instance{instanceId=4, bookId=5, presence=1, quantity=200000}
+2022-12-16 19:30:02 INFO  DatabaseConnection:151 - Instance{instanceId=5, bookId=6, presence=1, quantity=10000000}
+2022-12-16 19:30:02 INFO  DatabaseConnection:151 - Instance{instanceId=6, bookId=7, presence=1, quantity=1000000}
+2022-12-16 19:30:02 INFO  DatabaseConnection:151 - Instance{instanceId=7, bookId=8, presence=1, quantity=30000000}
+2022-12-16 19:30:02 INFO  DatabaseConnection:151 - Instance{instanceId=8, bookId=9, presence=1, quantity=10000000}
+2022-12-16 19:30:02 INFO  DatabaseConnection:151 - Instance{instanceId=9, bookId=10, presence=1, quantity=10000000}
+2022-12-16 19:30:02 INFO  DatabaseConnection:151 - Instance{instanceId=10, bookId=11, presence=1, quantity=100000}
+2022-12-16 19:30:02 INFO  DatabaseConnection:161 - getListInstance: Возвращаю данные из таблицы Instance
+2022-12-16 19:30:02 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:30:02 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:30:02 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:30:02 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:30:02 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:30:02 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 19:30:02 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 19:30:06 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:30:06 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:30:06 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:30:06 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:30:06 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:30:06 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:30:06 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 19:30:06 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 19:30:12 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:30:12 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:30:13 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:30:13 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:30:13 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:30:13 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:30:13 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 19:30:13 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 19:30:18 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:30:18 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:30:18 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:30:18 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:30:18 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:30:18 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:30:18 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login=admin password=285dcd08a9b1c809aaaa7d13ee79c5f8b990fce224bf123ef6978de2ea7272e88d6a891d7a221a2dbaa404a3e93da4a33b9b8b19ba2c68048160539f50951bb9 Есть ли запись в таблице: false
+2022-12-16 19:30:18 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 19:30:26 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:30:26 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:30:26 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:30:26 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:30:26 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:30:26 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:30:26 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login=user password=285dcd08a9b1c809aaaa7d13ee79c5f8b990fce224bf123ef6978de2ea7272e88d6a891d7a221a2dbaa404a3e93da4a33b9b8b19ba2c68048160539f50951bb9 Есть ли запись в таблице: false
+2022-12-16 19:30:26 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 19:30:33 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:30:33 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:30:33 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:30:33 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:30:33 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:30:33 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:30:33 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login=user password=e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed Есть ли запись в таблице: true
+2022-12-16 19:30:33 INFO  DatabaseConnection:388 - Запрашиваю клиента  из  таблицы Client
+2022-12-16 19:30:33 INFO  DatabaseConnection:389 - Данные из сигнатуры метода login= user
+2022-12-16 19:30:34 INFO  DatabaseConnection:411 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:30:34 INFO  AuthFilter:62 - Client:  login=user  password=e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed role= USER
+2022-12-16 19:30:38 INFO  ProfileServlet:31 - Вход на страницу /profile
+2022-12-16 19:30:38 INFO  ProfileServlet:36 - Прием данных с страницы /profile GET
+2022-12-16 19:30:38 INFO  ProfileServlet:51 - Прием данных с страницы /profile  GET завершен. Client id=2
+2022-12-16 19:30:38 INFO  ProfileServlet:53 - Данные из форм:
+	bookAddId=
+	bookIdDel=
+	dellSubCard= 
+Данные сессии: 
+	idClient=2
+	login=user
+	password=e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed
+	role=null
+2022-12-16 19:30:38 INFO  DatabaseConnection:304 - Запрашиваю данные из таблицы SubcriptionCard
+2022-12-16 19:30:38 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=3}
+2022-12-16 19:30:38 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=8}
+2022-12-16 19:30:38 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=10}
+2022-12-16 19:30:38 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-16, planned_date=2022-12-16, returnDate=2022-12-26, instanceId=3}
+2022-12-16 19:30:38 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-16, planned_date=2022-12-16, returnDate=2022-12-26, instanceId=3}
+2022-12-16 19:30:38 INFO  DatabaseConnection:338 - Возвращаю  данные из таблицы SubcriptionCard
+2022-12-16 19:30:38 INFO  DatabaseConnection:206 - getListBook: Запрашиваю данные из таблицы Book
+2022-12-16 19:30:38 INFO  DatabaseConnection:235 - getListBook: Возвращаю  данные из таблицы Book
+2022-12-16 19:30:38 INFO  DatabaseConnection:344 - Запрашиваю выборку из таблиц  Book, Instance, SubscriptionCard,Client
+2022-12-16 19:30:39 INFO  DatabaseConnection:366 - Возвращаю лист  Book: 
+2022-12-16 19:30:39 INFO  DatabaseConnection:369 - Book: Book{bookId=4, bookName='Собирайся, мы уезжаем: Глянец', description='«Собирайся, мы уезжаем» – моя дебютная повесть. Редактор выловила ее из залежей папок, которые громоздились на подоконнике, заслоняя дневной свет. Это книга искренняя, наивная, одновременно жесткая,', place='Саратов', pubclishingHouse='Интеллект'}
+2022-12-16 19:30:39 INFO  DatabaseConnection:369 - Book: Book{bookId=9, bookName='Ребенок в тебе должен обрести дом', description='Когда Сабина забывает купить любимую колбасу мужа, Михаэль гневается и кричит на неё. Дело не в колбасе: Михаэлю в этот момент кажется, будто его желания и потребности игнорируются. Так регулярно поступала его мать.', place='Москва', pubclishingHouse='Росмэн'}
+2022-12-16 19:30:39 INFO  DatabaseConnection:369 - Book: Book{bookId=11, bookName='Земля Королей. Червовый том', description='Восемь карточных олицетворений, валеты и короли четырёх мастей с абсолютно разными характерами и темпераментами, оказались заперты друг с другом в параллельном измерении', place='Москва', pubclishingHouse='Росмэн'}
+2022-12-16 19:30:39 INFO  DatabaseConnection:369 - Book: Book{bookId=4, bookName='Собирайся, мы уезжаем: Глянец', description='«Собирайся, мы уезжаем» – моя дебютная повесть. Редактор выловила ее из залежей папок, которые громоздились на подоконнике, заслоняя дневной свет. Это книга искренняя, наивная, одновременно жесткая,', place='Саратов', pubclishingHouse='Интеллект'}
+2022-12-16 19:30:39 INFO  DatabaseConnection:369 - Book: Book{bookId=4, bookName='Собирайся, мы уезжаем: Глянец', description='«Собирайся, мы уезжаем» – моя дебютная повесть. Редактор выловила ее из залежей папок, которые громоздились на подоконнике, заслоняя дневной свет. Это книга искренняя, наивная, одновременно жесткая,', place='Саратов', pubclishingHouse='Интеллект'}
+2022-12-16 19:30:40 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:30:40 INFO  AuthFilter:50 - Client:  login=  password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705
+2022-12-16 19:34:54 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:34:54 INFO  DatabaseConnection:131 - getListInstance: Запрашиваю данные из таблицы Instance
+2022-12-16 19:34:56 INFO  DatabaseConnection:149 - getListInstance: Данные из таблицы  Instance
+2022-12-16 19:34:56 INFO  DatabaseConnection:151 - Instance{instanceId=1, bookId=2, presence=1, quantity=10000000}
+2022-12-16 19:34:56 INFO  DatabaseConnection:151 - Instance{instanceId=2, bookId=3, presence=1, quantity=10000}
+2022-12-16 19:34:56 INFO  DatabaseConnection:151 - Instance{instanceId=3, bookId=4, presence=1, quantity=10000000}
+2022-12-16 19:34:56 INFO  DatabaseConnection:151 - Instance{instanceId=4, bookId=5, presence=1, quantity=200000}
+2022-12-16 19:34:56 INFO  DatabaseConnection:151 - Instance{instanceId=5, bookId=6, presence=1, quantity=10000000}
+2022-12-16 19:34:56 INFO  DatabaseConnection:151 - Instance{instanceId=6, bookId=7, presence=1, quantity=1000000}
+2022-12-16 19:34:56 INFO  DatabaseConnection:151 - Instance{instanceId=7, bookId=8, presence=1, quantity=30000000}
+2022-12-16 19:34:56 INFO  DatabaseConnection:151 - Instance{instanceId=8, bookId=9, presence=1, quantity=10000000}
+2022-12-16 19:34:56 INFO  DatabaseConnection:151 - Instance{instanceId=9, bookId=10, presence=1, quantity=10000000}
+2022-12-16 19:34:56 INFO  DatabaseConnection:151 - Instance{instanceId=10, bookId=11, presence=1, quantity=100000}
+2022-12-16 19:34:56 INFO  DatabaseConnection:161 - getListInstance: Возвращаю данные из таблицы Instance
+2022-12-16 19:34:57 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:34:57 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:34:57 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:34:57 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:34:57 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:34:57 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 19:34:57 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 19:35:01 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:35:01 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:35:01 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:35:01 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:35:01 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:35:01 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:35:01 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 19:35:01 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 19:35:08 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:35:08 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:35:08 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:35:08 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:35:08 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:35:08 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:35:08 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 19:35:08 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 19:35:09 INFO  MainServlet:24 - Вход на страницу /home
+2022-12-16 19:35:18 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:35:18 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:35:18 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:35:18 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:35:18 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:35:18 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:35:18 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login=user password=e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed Есть ли запись в таблице: true
+2022-12-16 19:35:18 INFO  DatabaseConnection:388 - Запрашиваю клиента  из  таблицы Client
+2022-12-16 19:35:18 INFO  DatabaseConnection:389 - Данные из сигнатуры метода login= user
+2022-12-16 19:35:19 INFO  DatabaseConnection:411 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:35:19 INFO  AuthFilter:62 - Client:  login=user  password=e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed role= USER
+2022-12-16 19:35:21 INFO  ProfileServlet:31 - Вход на страницу /profile
+2022-12-16 19:35:21 INFO  ProfileServlet:36 - Прием данных с страницы /profile GET
+2022-12-16 19:35:21 INFO  ProfileServlet:51 - Прием данных с страницы /profile  GET завершен. Client id=2
+2022-12-16 19:35:21 INFO  ProfileServlet:53 - Данные из форм:
+	bookAddId=
+	bookIdDel=
+	dellSubCard= 
+Данные сессии: 
+	idClient=2
+	login=user
+	password=e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed
+	role=null
+2022-12-16 19:35:21 INFO  DatabaseConnection:304 - Запрашиваю данные из таблицы SubcriptionCard
+2022-12-16 19:35:21 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=3}
+2022-12-16 19:35:21 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=8}
+2022-12-16 19:35:21 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=10}
+2022-12-16 19:35:21 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-16, planned_date=2022-12-16, returnDate=2022-12-26, instanceId=3}
+2022-12-16 19:35:21 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-16, planned_date=2022-12-16, returnDate=2022-12-26, instanceId=3}
+2022-12-16 19:35:21 INFO  DatabaseConnection:338 - Возвращаю  данные из таблицы SubcriptionCard
+2022-12-16 19:35:21 INFO  DatabaseConnection:206 - getListBook: Запрашиваю данные из таблицы Book
+2022-12-16 19:35:21 INFO  DatabaseConnection:235 - getListBook: Возвращаю  данные из таблицы Book
+2022-12-16 19:35:21 INFO  DatabaseConnection:344 - Запрашиваю выборку из таблиц  Book, Instance, SubscriptionCard,Client
+2022-12-16 19:35:21 INFO  DatabaseConnection:366 - Возвращаю лист  Book: 
+2022-12-16 19:35:22 INFO  DatabaseConnection:369 - Book: Book{bookId=4, bookName='Собирайся, мы уезжаем: Глянец', description='«Собирайся, мы уезжаем» – моя дебютная повесть. Редактор выловила ее из залежей папок, которые громоздились на подоконнике, заслоняя дневной свет. Это книга искренняя, наивная, одновременно жесткая,', place='Саратов', pubclishingHouse='Интеллект'}
+2022-12-16 19:35:22 INFO  DatabaseConnection:369 - Book: Book{bookId=9, bookName='Ребенок в тебе должен обрести дом', description='Когда Сабина забывает купить любимую колбасу мужа, Михаэль гневается и кричит на неё. Дело не в колбасе: Михаэлю в этот момент кажется, будто его желания и потребности игнорируются. Так регулярно поступала его мать.', place='Москва', pubclishingHouse='Росмэн'}
+2022-12-16 19:35:22 INFO  DatabaseConnection:369 - Book: Book{bookId=11, bookName='Земля Королей. Червовый том', description='Восемь карточных олицетворений, валеты и короли четырёх мастей с абсолютно разными характерами и темпераментами, оказались заперты друг с другом в параллельном измерении', place='Москва', pubclishingHouse='Росмэн'}
+2022-12-16 19:35:22 INFO  DatabaseConnection:369 - Book: Book{bookId=4, bookName='Собирайся, мы уезжаем: Глянец', description='«Собирайся, мы уезжаем» – моя дебютная повесть. Редактор выловила ее из залежей папок, которые громоздились на подоконнике, заслоняя дневной свет. Это книга искренняя, наивная, одновременно жесткая,', place='Саратов', pubclishingHouse='Интеллект'}
+2022-12-16 19:35:22 INFO  DatabaseConnection:369 - Book: Book{bookId=4, bookName='Собирайся, мы уезжаем: Глянец', description='«Собирайся, мы уезжаем» – моя дебютная повесть. Редактор выловила ее из залежей папок, которые громоздились на подоконнике, заслоняя дневной свет. Это книга искренняя, наивная, одновременно жесткая,', place='Саратов', pubclishingHouse='Интеллект'}
+2022-12-16 19:35:23 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:35:23 INFO  AuthFilter:50 - Client:  login=  password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705
+2022-12-16 19:35:25 INFO  ProfileServlet:31 - Вход на страницу /profile
+2022-12-16 19:35:25 INFO  ProfileServlet:36 - Прием данных с страницы /profile GET
+2022-12-16 19:35:25 INFO  ProfileServlet:51 - Прием данных с страницы /profile  GET завершен. Client id=2
+2022-12-16 19:35:25 INFO  ProfileServlet:53 - Данные из форм:
+	bookAddId=
+	bookIdDel=
+	dellSubCard= 
+Данные сессии: 
+	idClient=2
+	login=user
+	password=e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed
+	role=null
+2022-12-16 19:35:25 INFO  DatabaseConnection:304 - Запрашиваю данные из таблицы SubcriptionCard
+2022-12-16 19:35:25 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=3}
+2022-12-16 19:35:25 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=8}
+2022-12-16 19:35:25 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-14, planned_date=2022-12-14, returnDate=2022-12-24, instanceId=10}
+2022-12-16 19:35:25 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-16, planned_date=2022-12-16, returnDate=2022-12-26, instanceId=3}
+2022-12-16 19:35:25 INFO  DatabaseConnection:327 - SubcriptionCard info: SubcriptionCard{clientId=2, dateOfReceiving=2022-12-16, planned_date=2022-12-16, returnDate=2022-12-26, instanceId=3}
+2022-12-16 19:35:25 INFO  DatabaseConnection:338 - Возвращаю  данные из таблицы SubcriptionCard
+2022-12-16 19:35:25 INFO  DatabaseConnection:206 - getListBook: Запрашиваю данные из таблицы Book
+2022-12-16 19:35:25 INFO  DatabaseConnection:235 - getListBook: Возвращаю  данные из таблицы Book
+2022-12-16 19:35:25 INFO  DatabaseConnection:344 - Запрашиваю выборку из таблиц  Book, Instance, SubscriptionCard,Client
+2022-12-16 19:35:25 INFO  DatabaseConnection:366 - Возвращаю лист  Book: 
+2022-12-16 19:35:25 INFO  DatabaseConnection:369 - Book: Book{bookId=4, bookName='Собирайся, мы уезжаем: Глянец', description='«Собирайся, мы уезжаем» – моя дебютная повесть. Редактор выловила ее из залежей папок, которые громоздились на подоконнике, заслоняя дневной свет. Это книга искренняя, наивная, одновременно жесткая,', place='Саратов', pubclishingHouse='Интеллект'}
+2022-12-16 19:35:25 INFO  DatabaseConnection:369 - Book: Book{bookId=9, bookName='Ребенок в тебе должен обрести дом', description='Когда Сабина забывает купить любимую колбасу мужа, Михаэль гневается и кричит на неё. Дело не в колбасе: Михаэлю в этот момент кажется, будто его желания и потребности игнорируются. Так регулярно поступала его мать.', place='Москва', pubclishingHouse='Росмэн'}
+2022-12-16 19:35:25 INFO  DatabaseConnection:369 - Book: Book{bookId=11, bookName='Земля Королей. Червовый том', description='Восемь карточных олицетворений, валеты и короли четырёх мастей с абсолютно разными характерами и темпераментами, оказались заперты друг с другом в параллельном измерении', place='Москва', pubclishingHouse='Росмэн'}
+2022-12-16 19:35:25 INFO  DatabaseConnection:369 - Book: Book{bookId=4, bookName='Собирайся, мы уезжаем: Глянец', description='«Собирайся, мы уезжаем» – моя дебютная повесть. Редактор выловила ее из залежей папок, которые громоздились на подоконнике, заслоняя дневной свет. Это книга искренняя, наивная, одновременно жесткая,', place='Саратов', pubclishingHouse='Интеллект'}
+2022-12-16 19:35:25 INFO  DatabaseConnection:369 - Book: Book{bookId=4, bookName='Собирайся, мы уезжаем: Глянец', description='«Собирайся, мы уезжаем» – моя дебютная повесть. Редактор выловила ее из залежей папок, которые громоздились на подоконнике, заслоняя дневной свет. Это книга искренняя, наивная, одновременно жесткая,', place='Саратов', pubclishingHouse='Интеллект'}
+2022-12-16 19:35:45 INFO  LogoutServlet:21 - Старт закрытия сессии
+2022-12-16 19:35:45 INFO  LogoutServlet:30 - Сессия закрыта 
+2022-12-16 19:35:45 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:35:45 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:35:45 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:35:45 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:35:45 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:35:45 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:35:45 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 19:35:45 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 19:35:47 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:35:47 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:35:48 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:35:48 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:35:48 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:35:48 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:35:48 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 19:35:48 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 19:35:49 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:35:49 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:35:49 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:35:49 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:35:49 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:35:49 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:35:49 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 19:35:49 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 19:35:50 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:35:50 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:35:50 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:35:50 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:35:50 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:35:50 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:35:50 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 19:35:50 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 19:35:51 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:35:51 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:35:51 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:35:51 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:35:51 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:35:51 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:35:51 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 19:35:51 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 19:35:52 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:35:52 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:35:52 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:35:52 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:35:52 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:35:52 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:35:52 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 19:35:52 INFO  AuthFilter:72 - Client UNKNOWN
+2022-12-16 19:35:53 INFO  AuthFilter:33 - Начата проверка doFilter
+2022-12-16 19:35:53 INFO  DatabaseConnection:167 - Запрашиваю данные из таблицы Client
+2022-12-16 19:35:53 INFO  DatabaseConnection:189 - Данные из таблицы  Client
+2022-12-16 19:35:53 INFO  DatabaseConnection:191 - Client{idClient=1, firstName='Денис', secondName='Администратор', patronymic='null', login='admin', accessLevel='1', password='4e2c6bdf10480a89fb092e92fa8a8ea5bea96ae714afa0d13bbb14dcb679875b15561cb45168b9bd481d6c658fead87c791ce1c1e5226b8b3fc4219c18414490', role=ADMIN}
+2022-12-16 19:35:53 INFO  DatabaseConnection:191 - Client{idClient=2, firstName='Максим', secondName='Покупатель', patronymic='null', login='user', accessLevel='2', password='e2c0ff2b2344a72a72b1ca30bd1ce066e8ea945399a3258c5e9f008256469bcc548dbf6d1e15b0443eab97a63efad283554eb4c0572d446d25ac959627f51aed', role=USER}
+2022-12-16 19:35:53 INFO  DatabaseConnection:201 - Возвращаю данные из таблицы Client
+2022-12-16 19:35:53 INFO  ClientInstance:27 - Проверка на существование пользователя с задаными  login= password=708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705 Есть ли запись в таблице: false
+2022-12-16 19:35:53 INFO  AuthFilter:72 - Client UNKNOWN

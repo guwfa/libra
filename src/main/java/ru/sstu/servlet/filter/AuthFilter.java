@@ -4,6 +4,7 @@ import org.apache.log4j.Logger;
 import ru.sstu.entity.domain.Client;
 import ru.sstu.entity.repository.ClientInstance;
 import ru.sstu.entity.util.DatabaseConnection;
+import ru.sstu.entity.util.Util;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
@@ -11,6 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.security.NoSuchAlgorithmException;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicReference;
 
@@ -33,8 +35,10 @@ import static ru.sstu.entity.util.Util.filterAllHtml;
         final HttpServletRequest req = (HttpServletRequest) request;
         final HttpServletResponse res = (HttpServletResponse) response;
 
-        final String login = filterAllHtml(req.getParameter("login"));
-        final String password = filterAllHtml(req.getParameter("password"));
+         String login = filterAllHtml(req.getParameter("login"));
+         String password = filterAllHtml(req.getParameter("password"));
+        password = Util.get_SHA_512_SecurePassword(password,Util.getSalt());
+
 
         final HttpSession session = req.getSession();
         session.setMaxInactiveInterval(10*60);
@@ -70,12 +74,14 @@ import static ru.sstu.entity.util.Util.filterAllHtml;
         }
     }
 
-    private void moveToMenu(final HttpServletRequest req, final HttpServletResponse res, final Client.ROLE role)
+    private void moveToMenu(final HttpServletRequest req, final HttpServletResponse res,  Client.ROLE role)
             throws IOException, ServletException {
 
-        if (role.equals(Client.ROLE.ADMIN)) { res.sendRedirect("/adminPanel"); }
-        else if (role.equals(Client.ROLE.USER)) { req.getRequestDispatcher("/WEB-INF/index.jsp").forward(req,res); }
-        else { req.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(req, res); }
+       if(role != null){
+           if (role.equals(Client.ROLE.ADMIN)) { res.sendRedirect("/adminPanel"); }
+           else if (role.equals(Client.ROLE.USER)) { req.getRequestDispatcher("/WEB-INF/index.jsp").forward(req,res); }
+           else { req.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(req, res); }
+       }else { req.getRequestDispatcher("/WEB-INF/index.jsp").forward(req, res); }
     }
 
     @Override

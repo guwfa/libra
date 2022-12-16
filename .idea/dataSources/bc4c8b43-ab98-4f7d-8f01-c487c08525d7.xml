@@ -1459,326 +1459,360 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="315" parent="290" name="Сlient">
+    <table id="315" parent="290" name="security">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <column id="316" parent="308" name="authorId">
-      <AutoIncrement>8</AutoIncrement>
+    <table id="316" parent="290" name="Сlient">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <column id="317" parent="308" name="authorId">
+      <AutoIncrement>7</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="317" parent="308" name="firstNameAuthor">
+    <column id="318" parent="308" name="firstNameAuthor">
       <DasType>varchar(100)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="318" parent="308" name="lastNameAuthor">
+    <column id="319" parent="308" name="lastNameAuthor">
       <DasType>varchar(100)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="319" parent="308" name="patronymicAuthor">
+    <column id="320" parent="308" name="patronymicAuthor">
       <DasType>varchar(100)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <index id="320" parent="308" name="PRIMARY">
+    <index id="321" parent="308" name="PRIMARY">
       <ColNames>authorId</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="321" parent="308" name="PRIMARY">
+    <key id="322" parent="308" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="322" parent="309" name="bookId">
-      <AutoIncrement>12</AutoIncrement>
+    <column id="323" parent="309" name="bookId">
+      <AutoIncrement>13</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="323" parent="309" name="bookName">
+    <column id="324" parent="309" name="bookName">
       <DasType>varchar(4000)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="324" parent="309" name="publishingHouse">
+    <column id="325" parent="309" name="publishingHouse">
       <DasType>varchar(100)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="325" parent="309" name="place">
+    <column id="326" parent="309" name="place">
       <DasType>varchar(100)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="326" parent="309" name="description">
+    <column id="327" parent="309" name="description">
       <DasType>varchar(4000)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <index id="327" parent="309" name="PRIMARY">
+    <index id="328" parent="309" name="PRIMARY">
       <ColNames>bookId</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="328" parent="309" name="PRIMARY">
+    <key id="329" parent="309" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="329" parent="310" name="genreId">
-      <AutoIncrement>20</AutoIncrement>
+    <column id="330" parent="310" name="genreId">
+      <AutoIncrement>19</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="330" parent="310" name="GenreName">
+    <column id="331" parent="310" name="GenreName">
       <DasType>varchar(50)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <index id="331" parent="310" name="PRIMARY">
+    <index id="332" parent="310" name="PRIMARY">
       <ColNames>genreId</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="332" parent="310" name="PRIMARY">
+    <key id="333" parent="310" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="333" parent="311" name="genreCatalogId">
-      <AutoIncrement>12</AutoIncrement>
+    <column id="334" parent="311" name="genreCatalogId">
+      <AutoIncrement>11</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="334" parent="311" name="bookId">
+    <column id="335" parent="311" name="bookId">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="335" parent="311" name="genreId">
+    <column id="336" parent="311" name="genreId">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <foreign-key id="336" parent="311" name="GenreCatalog_ibfk_1">
+    <foreign-key id="337" parent="311" name="GenreCatalog_ibfk_1">
       <ColNames>bookId</ColNames>
       <RefColNames>bookId</RefColNames>
       <RefTableName>Book</RefTableName>
     </foreign-key>
-    <foreign-key id="337" parent="311" name="GenreCatalog_ibfk_2">
+    <foreign-key id="338" parent="311" name="GenreCatalog_ibfk_2">
       <ColNames>genreId</ColNames>
       <RefColNames>genreId</RefColNames>
       <RefTableName>Genre</RefTableName>
     </foreign-key>
-    <index id="338" parent="311" name="PRIMARY">
+    <index id="339" parent="311" name="PRIMARY">
       <ColNames>genreCatalogId</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="339" parent="311" name="bookId">
+    <index id="340" parent="311" name="bookId">
       <ColNames>bookId</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="340" parent="311" name="genreId">
+    <index id="341" parent="311" name="genreId">
       <ColNames>genreId</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="341" parent="311" name="PRIMARY">
+    <key id="342" parent="311" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="342" parent="312" name="id">
+    <column id="343" parent="312" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="343" parent="312" name="authorId">
+    <column id="344" parent="312" name="authorId">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="344" parent="312" name="bookId">
+    <column id="345" parent="312" name="bookId">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <foreign-key id="345" parent="312" name="Information_ibfk_2">
+    <foreign-key id="346" parent="312" name="Information_ibfk_2">
       <ColNames>authorId</ColNames>
       <RefColNames>authorId</RefColNames>
       <RefTableName>Author</RefTableName>
     </foreign-key>
-    <foreign-key id="346" parent="312" name="Information_ibfk_1">
+    <foreign-key id="347" parent="312" name="Information_ibfk_1">
       <ColNames>bookId</ColNames>
       <RefColNames>bookId</RefColNames>
       <RefTableName>Book</RefTableName>
     </foreign-key>
-    <index id="347" parent="312" name="PRIMARY">
+    <index id="348" parent="312" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="348" parent="312" name="authorId">
+    <index id="349" parent="312" name="authorId">
       <ColNames>authorId</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="349" parent="312" name="bookId">
+    <index id="350" parent="312" name="bookId">
       <ColNames>bookId</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="350" parent="312" name="PRIMARY">
+    <key id="351" parent="312" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="351" parent="313" name="instanceId">
-      <AutoIncrement>1</AutoIncrement>
+    <column id="352" parent="313" name="instanceId">
+      <AutoIncrement>10</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="352" parent="313" name="bookId">
+    <column id="353" parent="313" name="bookId">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="353" parent="313" name="presence">
+    <column id="354" parent="313" name="presence">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="354" parent="313" name="quantity">
+    <column id="355" parent="313" name="quantity">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <foreign-key id="355" parent="313" name="Instance_ibfk_1">
+    <foreign-key id="356" parent="313" name="Instance_ibfk_1">
       <ColNames>bookId</ColNames>
       <RefColNames>bookId</RefColNames>
       <RefTableName>Book</RefTableName>
     </foreign-key>
-    <index id="356" parent="313" name="PRIMARY">
+    <index id="357" parent="313" name="PRIMARY">
       <ColNames>instanceId</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="357" parent="313" name="bookId">
+    <index id="358" parent="313" name="bookId">
       <ColNames>bookId</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="358" parent="313" name="PRIMARY">
+    <key id="359" parent="313" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="359" parent="314" name="SubscriptionCardId">
+    <column id="360" parent="314" name="SubscriptionCardId">
+      <AutoIncrement>17</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="361" parent="314" name="clientId">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="362" parent="314" name="instanceId">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="363" parent="314" name="dateOfReceiving">
+      <DasType>date|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="364" parent="314" name="planned_date">
+      <DasType>date|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="365" parent="314" name="returnDate">
+      <DasType>date|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <foreign-key id="366" parent="314" name="SubscriptionCard_ibfk_1">
+      <ColNames>clientId</ColNames>
+      <RefColNames>clientId</RefColNames>
+      <RefTableName>Сlient</RefTableName>
+    </foreign-key>
+    <foreign-key id="367" parent="314" name="SubscriptionCard_ibfk_2">
+      <ColNames>instanceId</ColNames>
+      <RefColNames>instanceId</RefColNames>
+      <RefTableName>Instance</RefTableName>
+    </foreign-key>
+    <index id="368" parent="314" name="PRIMARY">
+      <ColNames>SubscriptionCardId</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="369" parent="314" name="clientId">
+      <ColNames>clientId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="370" parent="314" name="instanceId">
+      <ColNames>instanceId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="371" parent="314" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="372" parent="315" name="securityId">
       <AutoIncrement>1</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="360" parent="314" name="clientId">
+    <column id="373" parent="315" name="clientId">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="361" parent="314" name="instanceId">
-      <DasType>int|0s</DasType>
+    <column id="374" parent="315" name="login">
+      <DasType>varchar(256)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="362" parent="314" name="dateOfReceiving">
-      <DasType>date|0s</DasType>
+    <column id="375" parent="315" name="hashPass">
+      <DasType>text|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="363" parent="314" name="planned_date">
-      <DasType>date|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>5</Position>
-    </column>
-    <column id="364" parent="314" name="returnDate">
-      <DasType>date|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>6</Position>
-    </column>
-    <foreign-key id="365" parent="314" name="SubscriptionCard_ibfk_1">
+    <foreign-key id="376" parent="315" name="security_ibfk_1">
       <ColNames>clientId</ColNames>
       <RefColNames>clientId</RefColNames>
       <RefTableName>Сlient</RefTableName>
     </foreign-key>
-    <foreign-key id="366" parent="314" name="SubscriptionCard_ibfk_2">
-      <ColNames>instanceId</ColNames>
-      <RefColNames>instanceId</RefColNames>
-      <RefTableName>Instance</RefTableName>
-    </foreign-key>
-    <index id="367" parent="314" name="PRIMARY">
-      <ColNames>SubscriptionCardId</ColNames>
+    <index id="377" parent="315" name="PRIMARY">
+      <ColNames>securityId</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="368" parent="314" name="clientId">
+    <index id="378" parent="315" name="clientId">
       <ColNames>clientId</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="369" parent="314" name="instanceId">
-      <ColNames>instanceId</ColNames>
-      <Type>btree</Type>
-    </index>
-    <key id="370" parent="314" name="PRIMARY">
+    <key id="379" parent="315" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="371" parent="315" name="clientId">
-      <AutoIncrement>3</AutoIncrement>
+    <column id="380" parent="316" name="clientId">
+      <AutoIncrement>5</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="372" parent="315" name="firstName">
+    <column id="381" parent="316" name="firstName">
       <DasType>varchar(30)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="373" parent="315" name="secondName">
+    <column id="382" parent="316" name="secondName">
       <DasType>varchar(30)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="374" parent="315" name="patronymic">
+    <column id="383" parent="316" name="patronymic">
       <DasType>varchar(30)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="375" parent="315" name="access_level">
+    <column id="384" parent="316" name="access_level">
       <DasType>varchar(1)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="376" parent="315" name="login">
-      <DasType>varchar(256)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>6</Position>
-    </column>
-    <column id="377" parent="315" name="hash_password">
-      <DasType>text|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>7</Position>
-    </column>
-    <index id="378" parent="315" name="PRIMARY">
+    <index id="385" parent="316" name="PRIMARY">
       <ColNames>clientId</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="379" parent="315" name="PRIMARY">
+    <key id="386" parent="316" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>

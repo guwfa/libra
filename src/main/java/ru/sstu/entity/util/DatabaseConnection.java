@@ -5,6 +5,7 @@ package ru.sstu.entity.util;
 import org.apache.log4j.Logger;
 import ru.sstu.entity.domain.*;
 
+import java.security.NoSuchAlgorithmException;
 import java.sql.*;
 import java.sql.Date;
 import java.util.*;
@@ -19,7 +20,7 @@ public class DatabaseConnection {
     static final String DATABASE_PASSWORD = "QWEasdZXC123";
 
     /*Запросы к бд ВСЕХ объектов*/
-    static final String GET_ALL_USER = "SELECT * FROM Сlient";
+    static final String GET_ALL_USER = "SELECT Сlient.clientId ,Сlient.firstName, Сlient.secondName ,Сlient.patronymic, Сlient.access_level, security.login ,security.hashPass  FROM `Сlient` JOIN security On Сlient.clientId = security.clientId; ";
 
     static final String GET_ALL_INSTANCE = "SELECT * FROM Instance";
     static final String GET_ALL_BOOK = "SELECT * FROM Book";
@@ -32,7 +33,9 @@ public class DatabaseConnection {
 
     /*Добавление ОДНОГО объекта*/
     static  String INSERT_BOOK = "INSERT INTO Book (bookName,publishingHouse,place,description) VALUES (?,?,?,?)";
-    static  String INSERT_CLIENT = "INSERT INTO Сlient (firstName,secondName,patronymic,access_level,login,hash_password) VALUES (?,?,?,?,?,?)";
+    static  String INSERT_CLIENT = "INSERT INTO Сlient (firstName,secondName,patronymic,access_level) VALUES (?,?,?,?)";
+
+    static  String INSERT_HASH = "INSERT INTO `security`(`securityId`, `clientId`, `login`, `hashPass`) VALUES (DEFAULT,DEFAULT,?,?)" ;
     static String INSERT_SubcriptionCard = "INSERT INTO `SubscriptionCard`(`SubscriptionCardId`, `clientId`, `instanceId`, `dateOfReceiving`, `planned_date`, `returnDate`) VALUES (DEFAULT,?,?,CURRENT_DATE,CURRENT_DATE,ADDDATE(CURRENT_DATE,INTERVAL 10 DAY))";
 
 
@@ -46,7 +49,7 @@ public class DatabaseConnection {
 
     /*Запрос ОДНОГО обхъекта*/
 
-    static String GET_USER = "SELECT * FROM Сlient WHERE login = ?";
+    static String GET_USER = "SELECT Сlient.clientId ,Сlient.firstName, Сlient.secondName ,Сlient.patronymic, Сlient.access_level, security.login ,security.hashPass  FROM `Сlient` JOIN security On Сlient.clientId = security.clientId WHERE security.login = ?";
     static String GET_INSTANCE = "SELECT * FROM Instance WHERE instanceId = ";
 
 
@@ -453,14 +456,22 @@ public class DatabaseConnection {
             PreparedStatement statement = connection.prepareStatement(INSERT_CLIENT);
 
 
+
             statement.setString(1, firstName);
             statement.setString(2,secondName);
             statement.setString(3, patronymic);
             statement.setString(4, access_level);
-            statement.setString(5, login);
-            statement.setString(6, hash_password);
-
             statement.executeUpdate();
+
+
+
+
+            statement = connection.prepareStatement(INSERT_HASH);
+            statement.setString(1, login);
+            statement.setString(2, Util.get_SHA_512_SecurePassword(hash_password,Util.getSalt()));
+            statement.executeUpdate();
+
+
             statement.close();
             connection.close();
         }catch (SQLException | ClassNotFoundException e) {

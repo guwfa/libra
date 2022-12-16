@@ -13,25 +13,6 @@ public class ClientInstance {
     private static HashMap<String,Client> clientsMap = DatabaseConnection.getMapClients();
 
 
-    public  static Client getClient(String login){
-        Client client = null;
-        for(Client client1 : DatabaseConnection.getListClient()){
-            if(client1.getLogin().equals(login)){
-                client = client1;
-            }
-        }
-
-        return (client != null) ? client : new Client();
-    }
-
-    public void newUserRegistration(String login, String firstName, String secondName, String patronymic, String password){
-        logger.info("Данные пользователя приняты.");
-
-        /*Тут запрос на создание пользователя в бд*/
-
-        clients.add(new Client(clients.size(),firstName,secondName,patronymic,login,"2",password));
-        logger.info("Пользователь зарегестрирован");
-    }
 
     public static Boolean userIsExist(String login, String password){
         boolean isReg = false;
@@ -49,11 +30,4 @@ public class ClientInstance {
         return isReg;
     }
 
-    public Boolean isAdministration(Client client){
-        logger.info(
-                "Данные пользователя приняты в обработку.\n " +
-                        "Пользователь " + (client.getAccessLevel().equals("1") ?
-                        ("") : ("не")) + "Администратор ");
-        return client.getAccessLevel().equals("1");
-    }
 }
