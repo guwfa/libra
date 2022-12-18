@@ -45,8 +45,7 @@ public class AdminServlet extends HttpServlet {
         String description = filterAllHtml(req.getParameter("description"));
         String place = filterAllHtml(req.getParameter("place"));
         String pubclishingHouse = filterAllHtml(req.getParameter("pubclishingHouse"));
-        String updateBook = filterAllHtml(req.getParameter("updateBook"));
-        String addBook = filterAllHtml(req.getParameter("addBook"));
+        String addOrUpdateBook = filterAllHtml(req.getParameter("addOrUpdateBook"));
         String delBook = filterAllHtml(req.getParameter("delBook"));
 
         writer.println(
@@ -196,10 +195,12 @@ public class AdminServlet extends HttpServlet {
         );
 
 
+
+
         writer.println(
                 "<body>\n" +
                         "<main class=\"parent\">\n" +
-                        "\n" +
+                        "            <a href=/logout>Выход</a>\n" +
                         "  <table class=\"tableForm\">\n" +
                         "  <tr>\n" +
                         "    <th>\n" +
@@ -219,14 +220,18 @@ public class AdminServlet extends HttpServlet {
                         "          <p><label>Введите описание  книги<input class=\"input\" type=\"text\" name=\"description\" id=\"description\" required></label></p>\n" +
                         "          <p><label>Введите место выпуска  книги<input class=\"input\" type=\"text\" name=\"place\" id=\"place\" required></label></p>\n" +
                         "          <p><label>Введите типографию  книги<input class=\"input\" type=\"text\" name=\"pubclishingHouse\" id=\"pubclishingHouse\" required></label></p>\n" +
-                        "          <p><label>Обновить существующую книгу<input class=\"input\" type=\"checkbox\"value=\"1\" name=\"updateBook\" id=\"updateBook\" required></label></p>\n" +
-                        "          <p><label>Добавить новую книгу<input class=\"input\" type=\"checkbox\" value=\"1\" name=\"addBook\" id=\"addBook\" required></label></p>\n" +
+                        "          <p><label>Обновить существующую книгу<input class=\"input\" type=\"checkbox\"value=\"0\" name=\"addOrUpdateBook\" id=\"addOrUpdateBook\" ></label></p>\n" +
+                        "          <p><label>Добавить новую книгу<input class=\"input\" type=\"checkbox\" value=\"1\" name=\"addOrUpdateBook\" id=\"addOrUpdateBook\" ></label></p>\n" +
                         "          <p><label><input class=\"btn\" type=\"submit\"></label></p>\n" +
                         "        </form>\n" +
                         "      </div>\n" +
                         "    </th>\n" +
                         "  </tr>\n" +
                         "</table>"
+        );
+
+        logger.info(
+                "addOrUpdateBook = " + addOrUpdateBook
         );
 
         if(viewTable != null){
@@ -270,7 +275,6 @@ public class AdminServlet extends HttpServlet {
             if(viewTable.equals("book")){
                 writer.println(
                         "<h3>Выберите книгу которую хотите удалить из базы данных</h3>\n" +
-                                "  <form action=\"/adminPanel\" method=\"get\">\n" +
                                 "    <table>\n" +
                                 "      <thead>\n" +
                                 "      <tr>\n" +
@@ -286,6 +290,7 @@ public class AdminServlet extends HttpServlet {
 
                 for(Book book : listBooks){
                     writer.println(
+                            "  <form action=\"/adminPanel\" method=\"get\">\n" +
                             "<tr>\n" +
                                     "             <td>" + book.getBookId() + "</td>\n" +
                                     "             <td>" + book.getBookName() + "</td>\n" +
@@ -296,14 +301,14 @@ public class AdminServlet extends HttpServlet {
                                     "        <input type=\"text\" name=\"delBook\" value=\"" + book.getBookId() + "\"  hidden=\"hidden\">\n" +
                                     "<input class=\"btn\" type=\"submit\"  value=\"Удалить\">\n" +
                                     "        </td>\n" +
-                                    "      </tr>"
+                                    "      </tr>" +
+                                    "  </form>"
                     );
 
 
                 }
                 writer.println(
-                        "</table>\n" +
-                                "  </form>"
+                        "</table>\n"
                 );
             }
         }
@@ -315,25 +320,24 @@ public class AdminServlet extends HttpServlet {
             listBooks = DatabaseConnection.getListBook();
         }
 
-        if(addBook != null ){
-            if(addBook.equals("1")){
-                if( !bookName.equals("") & !description.equals("") & !place.equals("")  & !pubclishingHouse.equals("")){
+        if(addOrUpdateBook != null ){
+            if( !bookName.equals("") & !description.equals("") & !place.equals("")  & !pubclishingHouse.equals("")) {
+
+                if(addOrUpdateBook.equals("1")){
                     logger.info("Запущена процедура добавление книги");
                     addBook(bookName,pubclishingHouse,place,description);
                     logger.info("Книга добавлена");
                     listBooks = DatabaseConnection.getListBook();
                 }
-            }
-        }
 
-        if(updateBook != null){
-            if( updateBook.equals("1")){
-                if(!bookId.equals("") & !bookName.equals("") & !description.equals("") & !place.equals("")  & !pubclishingHouse.equals("")){
+                if( addOrUpdateBook.equals("0")){
                     logger.info("Запущена процедура обновления книги");
                     updateBook(bookName,pubclishingHouse,place,description, Integer.parseInt(bookId));
                     logger.info("Книга обновлена");
                     listBooks = DatabaseConnection.getListBook();
+
                 }
+
             }
         }
 
@@ -358,8 +362,7 @@ public class AdminServlet extends HttpServlet {
         String description = filterAllHtml(req.getParameter("description"));
         String place = filterAllHtml(req.getParameter("place"));
         String pubclishingHouse = filterAllHtml(req.getParameter("pubclishingHouse"));
-        String updateBook = filterAllHtml(req.getParameter("updateBook"));
-        String addBook = filterAllHtml(req.getParameter("addBook"));
+        String addOrUpdateBook = filterAllHtml(req.getParameter("addOrUpdateBook"));
         String delBook = filterAllHtml(req.getParameter("delBook"));
 
 
@@ -451,25 +454,24 @@ public class AdminServlet extends HttpServlet {
             listBooks = DatabaseConnection.getListBook();
         }
 
-        if(addBook != null ){
-            if(addBook.equals("1")){
-                if( !bookName.equals("") & !description.equals("") & !place.equals("")  & !pubclishingHouse.equals("")){
+        if(addOrUpdateBook != null ){
+            if( !bookName.equals("") & !description.equals("") & !place.equals("")  & !pubclishingHouse.equals("")) {
+
+                if(addOrUpdateBook.equals("0")){
                     logger.info("Запущена процедура добавление книги");
                     addBook(bookName,pubclishingHouse,place,description);
                     logger.info("Книга добавлена");
                     listBooks = DatabaseConnection.getListBook();
                 }
-            }
-        }
 
-        if(updateBook != null){
-            if( updateBook.equals("1")){
-                if(!bookId.equals("") & !bookName.equals("") & !description.equals("") & !place.equals("")  & !pubclishingHouse.equals("")){
+                if( addOrUpdateBook.equals("1")){
                     logger.info("Запущена процедура обновления книги");
                     updateBook(bookName,pubclishingHouse,place,description, Integer.parseInt(bookId));
                     logger.info("Книга обновлена");
                     listBooks = DatabaseConnection.getListBook();
+
                 }
+
             }
         }
 

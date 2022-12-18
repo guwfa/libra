@@ -136,13 +136,6 @@
         <div class="menu">
             <div>
                 <a class="link" href="/">Главная страница</a>
-                <div class="dropdown">
-                    <button class="dropbtn">Профиль</button>
-                    <div class="dropdown-content">
-                        <a href="/profile">Профиль</a>
-                        <a href=/logout>Выход</a>
-                    </div>
-                </div>
             </div>
         </div>
     </menu>

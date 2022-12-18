@@ -33,9 +33,9 @@ public class DatabaseConnection {
 
     /*Добавление ОДНОГО объекта*/
     static  String INSERT_BOOK = "INSERT INTO Book (bookName,publishingHouse,place,description) VALUES (?,?,?,?)";
-    static  String INSERT_CLIENT = "INSERT INTO Сlient (firstName,secondName,patronymic,access_level) VALUES (?,?,?,?)";
+    static  String INSERT_CLIENT = "CALL addClient(?,?,?,?,?,?)" ;
 
-    static  String INSERT_HASH = "INSERT INTO `security`(`securityId`, `clientId`, `login`, `hashPass`) VALUES (DEFAULT,DEFAULT,?,?)" ;
+    static  String INSERT_HASH = "INSERT INTO `security`(`securityId`, `clientId`, `login`, `hashPass`) VALUES (DEFAULT,?,?,?)" ;
     static String INSERT_SubcriptionCard = "INSERT INTO `SubscriptionCard`(`SubscriptionCardId`, `clientId`, `instanceId`, `dateOfReceiving`, `planned_date`, `returnDate`) VALUES (DEFAULT,?,?,CURRENT_DATE,CURRENT_DATE,ADDDATE(CURRENT_DATE,INTERVAL 10 DAY))";
 
 
@@ -448,36 +448,32 @@ public class DatabaseConnection {
     }
 
     public static void addClient(String firstName,String secondName,String patronymic,String access_level,String login,String hash_password){
-        logger.info("Начинаю добавление в таблицу Client");
-
         try {
+            logger.info("addClient: Начинаю добавление в таблицу Client");
             Class.forName(NAME_DRIVER);
             Connection connection = DriverManager.getConnection(DATABASE_URL, DATABASE_USER, DATABASE_PASSWORD);
             PreparedStatement statement = connection.prepareStatement(INSERT_CLIENT);
 
-
+         /*"
+            INSERT INTO `Сlient`(`clientId`, `firstName`, `secondName`, `patronymic`, `access_level`) VALUES (DEFAULT,'?','?','?','?');
+            INSERT INTO `security`(`securityId`, `clientId`, `login`, `hashPass`) VALUES (DEFAULT,LAST_INSERT_ID(),'?','?')";
+          */
 
             statement.setString(1, firstName);
             statement.setString(2,secondName);
             statement.setString(3, patronymic);
             statement.setString(4, access_level);
+            statement.setString(5, login);
+            statement.setString(6, Util.get_SHA_512_SecurePassword(hash_password, Util.salt));
             statement.executeUpdate();
-
-
-
-
-            statement = connection.prepareStatement(INSERT_HASH);
-            statement.setString(1, login);
-            statement.setString(2, Util.get_SHA_512_SecurePassword(hash_password,Util.getSalt()));
-            statement.executeUpdate();
-
 
             statement.close();
             connection.close();
+            logger.info("addClient: Данные клиента добавлены");
         }catch (SQLException | ClassNotFoundException e) {
             logger.info(e);
         }
-        logger.info("Данные в таблицу Client добавлены");
+
     }
 
     public static void addSubcriptionCard(int clientId, String bookId){
